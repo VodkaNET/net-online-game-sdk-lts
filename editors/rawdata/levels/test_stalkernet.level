@@ -1,0 +1,42 @@
+[build_params]
+        light_jitter_samples             = 9
+        light_pixel_per_meter            = 10.000000
+        light_quality                    = 1
+        light_quality_reserved           = 34181
+        light_rms                        = 4
+        light_rms_zero                   = 4
+        reserved_0                       = -0.000000
+        reserved_1                       = -0.000000
+        reserved_2                       = -0.000000
+        reserved_3                       = -0.000000
+        reserved_4                       = -0.000000
+        reserved_5                       = -0.000000
+        smooth_angle                     = 75.000000
+        weld_distance                    = 0.005000
+ 
+[camera]
+        hpb                              = 0.050318, -0.139285, 0.000000
+        pos                              = 37.691532, 1.560228, 8.566143
+ 
+[guid]
+        guid_g0                          = 5626411031706753082
+        guid_g1                          = 11031232524063861695
+ 
+[level_options]
+        bop                              = ""
+        game_type                        = 65535
+        level_path                       = test_stalkernet
+        level_prefix                     = test_stalkernet
+        light_hemi_quality               = 3
+        light_sun_quality                = 3
+        map_version                      = 1.0
+        version                          = 12
+        version_bp                       = 9
+ 
+[level_tag]
+        create_time                      = 1596784026
+        owner                            = \\STD\Vodka
+ 
+[version]
+        value                            = 5
+ 

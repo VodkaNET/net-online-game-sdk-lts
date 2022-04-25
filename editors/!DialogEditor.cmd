@@ -1,0 +1,1 @@
+start bin\tools\dialog_editor\DialogEditor.exe -editor

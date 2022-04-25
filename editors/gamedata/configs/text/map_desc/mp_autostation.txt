@@ -1,0 +1,6 @@
+[map_info]
+name = "Autostation"
+players = 6-32
+modes = "Deathmatch, TeamdDeathmatch, Artefacthunt, CaptureTheArtefact"
+short_desc = "ui_map_desc_mp_autostation_short"
+large_desc = "ui_map_desc_mp_autostation_large"

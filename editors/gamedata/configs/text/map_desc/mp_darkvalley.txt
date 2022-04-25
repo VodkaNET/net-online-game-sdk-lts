@@ -1,0 +1,6 @@
+[map_info]
+name = "Darkvalley"
+players = 8-16
+modes = "Deathmatch, TeamdDeathmatch, Artefacthunt, CaptureTheArtefact"
+short_desc = "ui_map_desc_mp_darkvalley_short"
+large_desc = "ui_map_desc_mp_darkvalley_large"

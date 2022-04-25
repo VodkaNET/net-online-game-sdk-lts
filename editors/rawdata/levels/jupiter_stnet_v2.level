@@ -1,0 +1,45 @@
+[build_params]
+        light_jitter_samples             = 9
+        light_pixel_per_meter            = 15.000000
+        light_quality                    = 2
+        light_quality_reserved           = 10876
+        light_rms                        = 4
+        light_rms_zero                   = 4
+        reserved_0                       = 1143246145879801856000000000000000.000000
+        reserved_1                       = 0.000000
+        reserved_2                       = 0.000000
+        reserved_3                       = 176059835409550.540800
+        reserved_4                       = 0.000000
+        reserved_5                       = 69776420771106652160000.000000
+        smooth_angle                     = 70.000000
+        weld_distance                    = 0.010000
+ 
+[camera]
+        hpb                              = 1.015075, -0.616201, 0.000000
+        pos                              = 454.718400, 111.664024, -120.581264
+ 
+[guid]
+        guid_g0                          = 4816257301467301627
+        guid_g1                          = 4960127225431719567
+ 
+[level_options]
+        bop                              = ""
+        game_type                        = 6
+        level_path                       = jupiter_stnet_v2
+        level_prefix                     = jup
+        light_hemi_quality               = 3
+        light_sun_quality                = 3
+        map_version                      = 1.0
+        version                          = 12
+        version_bp                       = 9
+ 
+[level_tag]
+        create_time                      = 1224083849
+        owner                            = \\VENTURA\Ventura
+ 
+[snap_objects]
+        scenes\jupiter\custom\underground\underground_sector_8 =
+ 
+[version]
+        value                            = 5
+ 

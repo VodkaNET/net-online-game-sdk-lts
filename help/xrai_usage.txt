@@ -1,0 +1,13 @@
+ƒл€ компил€ции ии-компонентов дл€ начала нужно собрать аи-сетку.
+
+либо в драфте: tool_compile_xrAI_draft.cmd, либо фулл: tool_compile_xrAI.cmd
+
+”казать левел в editors\gamedata\configs\game_levels.ltx
+
+“еперь, останетс€ лишь спавн: tool_create_spawn.cmd, его можно собирать как отдельно, так и несколько карт за раз,
+
+например: -s zaton,jupiter (без пробела).
+
+компил€ци€ завершена, копируем уровень, game_levels.ltx, spawns\ в папку с игрой, 
+
+создаем .bat вида: "start bin\xrEngine.exe -start server(<спавн>/single/alife/new)" и запускаем.

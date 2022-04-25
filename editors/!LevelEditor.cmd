@@ -1,0 +1,1 @@
+start bin\designer\mixed\LevelEditor.exe -editor

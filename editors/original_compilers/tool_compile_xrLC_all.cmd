@@ -1,0 +1,1 @@
+start bin\compilers\xrLC.exe -f %1 -keep_temp_files

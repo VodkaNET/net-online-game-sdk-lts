@@ -1,0 +1,69 @@
+[guid]
+        guid_g0                          = 5151998633103030528
+        guid_g1                          = 12625816624765898920
+ 
+[main]
+        flags                            = 0
+        objects_count                    = 4
+        version                          = 0
+ 
+[modif]
+        name                             =
+        time                             = 0
+ 
+[object_0]
+        clsid                            = 6
+        co_flags                         = 2
+        game_type                        = 76
+        name                             = $rpoint_0007
+        position                         = -1.504866, 0.000000, 2.118075
+        rotation                         = -0.000840, -3.123981, 0.003363
+        rp_profile                       =
+        rp_type                          = 0
+        scale                            = 1.000000, 1.000000, 1.000000
+        team_id                          = 0
+        type                             = 0
+        version                          = 23
+ 
+[object_1]
+        clsid                            = 6
+        co_flags                         = 0
+        game_type                        = 1
+        name                             = lobby_place_0004
+        position                         = -2.818451, 0.000000, -0.392932
+        rotation                         = -0.000040, 0.006304, 0.000871
+        rp_profile                       =
+        rp_type                          = 0
+        scale                            = 1.000000, 1.000000, 1.000000
+        team_id                          = 0
+        type                             = 0
+        version                          = 23
+ 
+[object_2]
+        clsid                            = 6
+        co_flags                         = 0
+        game_type                        = 32
+        name                             = mp_military_defense_$rpoint_start
+        position                         = -2.798730, 0.000000, 0.230814
+        rotation                         = -0.000044, 0.001157, 0.000871
+        rp_profile                       =
+        rp_type                          = 0
+        scale                            = 1.000000, 1.000000, 1.000000
+        team_id                          = 4
+        type                             = 0
+        version                          = 23
+ 
+[object_3]
+        clsid                            = 6
+        co_flags                         = 0
+        game_type                        = 0
+        name                             = testloka_$rpoint
+        position                         = -1.606703, 0.000000, 0.178582
+        rotation                         = 0.000578, 1.658054, -0.000070
+        rp_profile                       =
+        rp_type                          = 0
+        scale                            = 1.000000, 1.000000, 1.000000
+        team_id                          = 7
+        type                             = 0
+        version                          = 23
+ 

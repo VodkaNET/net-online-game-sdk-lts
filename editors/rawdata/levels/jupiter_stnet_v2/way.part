@@ -1,0 +1,867 @@
+[guid]
+        guid_g0                          = 4816257301467301627
+        guid_g1                          = 4960127225431719567
+ 
+[main]
+        objects_count                    = 57
+        version                          = 0
+ 
+[modif]
+        name                             =
+        time                             = 0
+ 
+[object_0]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = jupiter_smart_1_walker_3_walk
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 1
+        wp_0_name                        = wp00
+        wp_0_pos                         = 228.698160, -5.549998, 426.975008
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_1]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = jupiter_smart_1_walker_3_look
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 1
+        wp_0_name                        = wp00|a=caution
+        wp_0_pos                         = 231.532496, -5.550001, 434.830880
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_10]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_vanna_respawn_art_5
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 228.730176, 15.167320, -302.962560
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_11]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_shit_respawn_art_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -84.237336, -0.388756, -142.310848
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_12]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_shit_respawn_art_4
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -66.610536, -0.388756, -138.969728
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_13]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_shit_respawn_art_3
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -72.767392, -0.388754, -156.108336
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_14]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_shit_respawn_art_2
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -83.876216, -0.388752, -153.936480
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_15]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_shit_respawn_art_5
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -76.802888, -0.356878, -133.782472
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_16]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = respawn_blackbox1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -384.438848, 19.985628, 430.702592
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_17]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_dead_respawn_art_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -398.548896, 14.304861, 338.175328
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_18]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_dead_respawn_art_2
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -409.061120, 14.209425, 340.903072
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_19]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_dead_respawn_art_3
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -396.395360, 13.794582, 325.984032
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_2]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = jupiter_smart_1_walker_1_walk
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 1
+        wp_0_name                        = wp00
+        wp_0_pos                         = 232.198800, -5.350342, 415.804288
+        wp_0_selected                    = off
+        wp_count                         = 1
+ 
+[object_20]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_dead_respawn_art_4
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -385.628064, 15.051702, 354.076064
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_21]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_dead_respawn_art_5
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -381.387168, 14.808161, 335.047776
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_22]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_dirka_respawn_art_2
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 238.865024, 10.589043, -118.677624
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_23]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_dirka_respawn_art_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 223.951792, 11.793964, -127.414424
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_24]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_dirka_respawn_art_3
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 217.739344, 5.896656, -110.635536
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_25]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_dirka_respawn_art_4
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 234.586976, 7.472440, -108.965144
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_26]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_dirka_respawn_art_5
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 232.868752, 3.892242, -97.339112
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_27]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_ximoza_respawn_art_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 256.006288, -5.550012, 447.946208
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_28]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_ximoza_respawn_art_5
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 247.367280, -5.550001, 427.405664
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_29]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_ximoza_respawn_art_3
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 238.070496, -5.550007, 446.116960
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_3]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = jupiter_smart_1_walker_1_look
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 1
+        wp_0_name                        = wp00|a=guard_chasovoy
+        wp_0_pos                         = 234.390176, -5.549998, 424.980448
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_30]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_ximoza_respawn_art_4
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 224.745184, -5.550007, 448.505792
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_31]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_ximoza_respawn_art_2
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 244.326336, -5.549998, 439.721920
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_32]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = documentation_jup_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 417.824096, 32.374748, -360.792608
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_33]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = documentation_jup_2
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 343.776512, 27.616424, -406.066080
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_34]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = documentation_jup_3
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 324.762624, 32.425690, -303.146240
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_35]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = respawn_medkit_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 346.941856, 28.613878, -373.060224
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_36]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = respawn_ammo_pkm_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 347.005632, 28.731980, -373.979552
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_37]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = respawn_ammo_gauss_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 347.024768, 28.584380, -371.378752
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_38]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_career_respawn_art_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 257.729680, -28.694890, 92.119472
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_39]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_career_respawn_art_2
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 247.616432, -29.767628, 156.128192
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_4]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = jupiter_smart_1_walker_2_walk
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 1
+        wp_0_name                        = wp00
+        wp_0_pos                         = 222.549632, -5.362421, 419.955488
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_40]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_career_respawn_art_3
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 286.353120, -29.536556, 103.176272
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_41]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_career_respawn_art_4
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 216.645008, -29.732288, 83.030728
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_42]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_career_respawn_art_5
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 240.826928, -29.332256, 109.320360
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_43]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_kamen_respawn_art_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 67.531008, 5.661171, 27.025774
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_44]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_kamen_respawn_art_2
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 79.313552, 6.227298, 11.311440
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_45]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_kamen_respawn_art_3
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 84.807920, 3.994820, 44.011672
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_46]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_kamen_respawn_art_4
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 98.181256, 4.827736, 15.554060
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_47]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_kamen_respawn_art_5
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 101.987408, 4.035412, 31.264862
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_48]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = respawn_doc_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 329.470176, -1.504997, -39.621536
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_49]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = respawn_doc_2
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 360.516224, 29.123374, -313.640672
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_5]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = jupiter_smart_1_walker_2_look
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 1
+        wp_0_name                        = wp00|a=hide
+        wp_0_pos                         = 216.197216, -4.999563, 412.647648
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_50]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = boloto_2
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -295.737216, -2.402241, -308.905184
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_51]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = boloto_3
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -312.478784, -2.126156, -250.326912
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_52]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = boloto_4
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -295.192416, -2.829609, -228.100528
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_53]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = boloto_5
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -342.075040, -2.803429, -230.875264
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_54]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = boloto_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = -266.523952, -2.799984, -312.465472
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_55]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = underground_anomaly_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 772.942336, -41.787932, -246.682240
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_56]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = underground_anomaly_2
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 787.912576, -41.786656, -247.835504
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_6]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_vanna_respawn_art_1
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 234.417968, 15.171408, -300.525920
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_7]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_vanna_respawn_art_2
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 239.737232, 15.173994, -330.880224
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_8]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_vanna_respawn_art_3
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 230.242304, 15.169306, -332.279040
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 
+[object_9]
+        clsid                            = 7
+        co_flags                         = 0
+        name                             = anomaly_vanna_respawn_art_4
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        type                             = 0
+        version                          = 19
+        wp_0_flags                       = 0
+        wp_0_name                        = wp00
+        wp_0_pos                         = 233.168048, 15.170385, -313.097280
+        wp_0_selected                    = on
+        wp_count                         = 1
+ 

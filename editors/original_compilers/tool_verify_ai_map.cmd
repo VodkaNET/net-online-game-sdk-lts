@@ -1,0 +1,1 @@
+start bin\designer\release\xrai.exe -verify %1

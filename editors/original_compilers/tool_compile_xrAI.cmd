@@ -1,0 +1,1 @@
+start bin\designer\release\xrai.exe -f %1 -keep_temp_files

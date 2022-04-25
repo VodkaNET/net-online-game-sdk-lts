@@ -1,0 +1,75 @@
+[appendrandom]
+        AppendRandomMaxRotation          = 0.000000, 0.000000, 0.000000
+        AppendRandomMaxScale             = 1.000000, 1.000000, 1.000000
+        AppendRandomMinRotation          = 0.000000, 0.000000, 0.000000
+        AppendRandomMinScale             = 1.000000, 1.000000, 1.000000
+        AppendRandomObjects_size         = 0
+ 
+[guid]
+        guid_g0                          = 5626411031706753082
+        guid_g1                          = 11031232524063861695
+ 
+[main]
+        flags                            = 0
+        objects_count                    = 5
+        version                          = 0
+ 
+[modif]
+        name                             =
+        time                             = 0
+ 
+[object_0]
+        clsid                            = 2
+        co_flags                         = 0
+        flags                            = 0
+        name                             = vodka\scenes\test_stalkernet\test_plane
+        position                         = 0.000000, 0.000000, 0.000000
+        reference_name                   = vodka\scenes\test_stalkernet\test_plane
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 18
+ 
+[object_1]
+        clsid                            = 2
+        co_flags                         = 0
+        flags                            = 0
+        name                             = custom_models\niva_item
+        position                         = 9.569121, 0.000000, 7.892287
+        reference_name                   = custom_models\niva_item
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 18
+ 
+[object_2]
+        clsid                            = 2
+        co_flags                         = 0
+        flags                            = 0
+        name                             = statics\stol\stol_village_a
+        position                         = 0.741126, 0.000000, 8.266803
+        reference_name                   = statics\stol\stol_village_a
+        rotation                         = 0.000000, -1.570796, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 18
+ 
+[object_3]
+        clsid                            = 2
+        co_flags                         = 0
+        flags                            = 0
+        name                             = vodka\scenes\test_stalkernet\pbr_test
+        position                         = -65.227340, 0.180000, 75.341648
+        reference_name                   = vodka\scenes\test_stalkernet\pbr_test
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 18
+ 
+[object_4]
+        clsid                            = 2
+        co_flags                         = 0
+        flags                            = 0
+        name                             = statics\tomb\tomb_2
+        position                         = 68.101888, 0.000000, 67.681936
+        reference_name                   = statics\tomb\tomb_2
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 18
+ 

@@ -1,0 +1,6 @@
+[map_info]
+name = "Firestation"
+players = 6-24
+modes = "Deathmatch, TeamdDeathmatch, Artefacthunt, CaptureTheArtefact"
+short_desc = "ui_map_desc_mp_firestation_short"
+large_desc = "ui_map_desc_mp_firestation_large"

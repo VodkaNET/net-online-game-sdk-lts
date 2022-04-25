@@ -1,0 +1,14 @@
+Initializing File System...
+ 
+FATAL ERROR
+ 
+[error]Expression    : F
+[error]Function      : X:\stalker_addon\sources\trunk\xrCore\ELocatorAPI.cpp
+[error]File          : X:\stalker_addon\sources\trunk\xrCore\ELocatorAPI.cpp
+[error]Line          : 63
+[error]Description   : Can't open file:
+[error]Arguments     : fs.ltx
+ 
+
+stack trace:
+

@@ -1,0 +1,1 @@
+@start bin\compilers_x64\xrDO_light.exe -f zaton

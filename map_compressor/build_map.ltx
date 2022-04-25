@@ -1,0 +1,19 @@
+[options] 
+exclude_exts = *.ncb,*.sln,*.vcproj,*.old,*.rc,*.scc,*.vssscc,*.bmp,*.smf,*.uvm,*.prj,*.tga,*.txt,*.log 
+
+[include_folders] 
+levels\mp_test = true ; path to your level from current folder 
+textures = true 
+configs\text = true 
+
+[exclude_folders] 
+textures\act = true
+textures\wpn = true
+
+[header]
+auto_load       = true
+level_name	= mp_test     			; level name
+level_ver	= 1.0		               	; level version
+entry_point	= $fs_root$\gamedata\		; do not change !
+creator 	= "www.stalker-game.com"    	; creator or link
+link 		= "www.stalker-game.com"

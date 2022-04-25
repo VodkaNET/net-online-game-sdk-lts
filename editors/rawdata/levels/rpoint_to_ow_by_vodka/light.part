@@ -1,0 +1,20 @@
+[guid]
+        guid_g0                          = 5151998633103030528
+        guid_g1                          = 12625816624765898920
+ 
+[lcontrols]
+        $hemi                            = 1
+        $static                          = 0
+        $sun                             = 2
+ 
+[main]
+        flags                            = 0
+        lcontrol_last_idx                = 3
+        objects_count                    = 0
+        sun_shadow_dir                   = -0.436332, 5.096362
+        version                          = 0
+ 
+[modif]
+        name                             =
+        time                             = 0
+ 

@@ -1,0 +1,452 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+	<meta http-equiv="CONTENT-TYPE" content="text/html; charset=windows-1251">
+	
+	<title>Расстановка аномальных зон</title><meta name="GENERATOR" content="OpenOffice.org 2.3  (Win32)">
+	<meta name="CREATED" content="0;0">
+	<meta name="CHANGEDBY" content="t_G_M_">
+	<meta name="CHANGED" content="20080221;19032092">
+	<meta name="ProgId" content="Word.Document">
+	<meta name="Originator" content="Microsoft Word 11">
+	<style type="text/css">
+	<!--
+		@page { size: 21cm 29.7cm }
+		P { color: #000000 }
+		TD P { color: #000000 }
+		A:link { color: #0000ff }
+		A:visited { color: #800080 }
+	-->
+	</style></head>
+<body dir="ltr" lang="ru-RU" link="#0000ff" text="#000000" vlink="#800080">
+<p class="msonormal" style="margin-bottom: 0cm;" align="center"><font size="3"><b>Расстановка
+аномальных зон</b></font></p>
+<p class="msonormal" style="margin-bottom: 0cm;" align="justify">&nbsp;</p>
+<p class="msonormal" style="margin-bottom: 0cm; line-height: 100%;" align="justify">
+<font size="3"><br>	Для того, чтобы поставить аномальную зону,
+необходимо:</font></p>
+<p class="msonormal" style="margin-bottom: 0cm; line-height: 100%;" align="justify">
+<br>
+</p>
+<ol>
+	<li><p class="msonormal" style="margin-bottom: 0cm; line-height: 100%;" align="justify">
+	<font size="3">Поставить зону </font><font size="3">накрывающего аномального поля (</font><font size="3"><font color="#0000ff">Spawn Element -&gt; zones -&gt;&nbsp;field_<span style="color: black;"><span style="color: red;">тип_поля<span style="color: blue;">_</span>силя_поля</span>)</span></font>, </font><font size="3">постоянно </font><font size="3">наносящего&nbsp;небольшое
+	повреждение. Радиус поля по желанию можно изменить (scale).</font></p>
+	</li><li><p class="msonormal" style="margin-bottom: 0cm; line-height: 100%;" align="justify">
+	<font size="3">В её пределах расставить зоны&nbsp;</font><font size="3">аномалий-мин</font><font size="3"> (</font><font size="3"><font color="#0000ff">Spawn Element -&gt; zones -&gt;&nbsp;</font></font><font size="3"><font color="#0000ff">mine_<span style="color: black;"><span style="color: red;">тип_мины<span style="color: blue;">_</span>сила_мины</span>)</span></font>, при попадании в которые наносится сильное
+	повреждение. Радиус мин менять нельзя.</font></p>
+	</li><li><p class="msonormal" style="margin-bottom: 0cm; line-height: 100%;" align="justify">
+	<font size="3">В пределах зоны <font color="#0000ff">field</font>
+	проложить один или несколько путей (<font color="#0000ff">way</font>),
+	по которым будет двигаться артефакт.</font></p></li><li><p><font size="3">В пределах зоны <font color="#0000ff">field </font></font>поставить несколько групп партиклов поля (<span style="color: blue;">Static Particles -&gt; zones -&gt; zone_<span style="color: red;">тип_поля</span>_idle</span>), соответствующих типу&nbsp;<font size="3"><font color="#0000ff">field</font></font>, благодаря которым поле можно будет заметить снаружи (для радиационного поля партиклы не нужны).</p></li><li><p class="msonormal" style="margin-bottom: 0cm; line-height: 100%;" align="justify">
+	<font size="3">Поставить зону управления поведением артефакта
+	(<font color="#0000ff">Spawn Element -&gt; ai -&gt; anomal_zone</font>).</font></p></li></ol><br>
+
+
+<p class="msonormal" style="margin-bottom: 0cm;" align="justify"><font size="3">	В
+<font color="#0000ff">custom data</font><font color="#000000"> зоны
+управления </font></font><font size="3"><font color="#0000ff">anomal_zone </font></font><font size="3"><font color="#000000">нужно прописать следующее:</font></font></p>
+<p class="msonormal" style="margin-bottom: 0cm;" align="justify"><br>
+</p>
+<table border="1" bordercolor="#000000" cellpadding="4" cellspacing="0" width="100%">
+	<col width="256*">
+	<tbody><tr>
+		<td valign="top" width="100%">
+			<p style="margin-bottom: 0cm;" align="left"><font face="Courier New, monospace"><font size="2">[anomal_zone]</font></font></p>
+			<p class="msonormal" style="margin-bottom: 0cm;" align="left"><font face="Courier New, monospace"><font size="2">artefact_ways
+			= <font color="#ff0000">имя_пути</font>, <font color="#ff0000">имя_пути</font>,
+			<font color="#ff0000">имя_пути...</font></font></font></p>
+			<p class="msonormal" style="margin-bottom: 0cm;" align="left"><font face="Courier New, monospace"><font size="2">artefacts
+			= <font color="#ff0000">идентификатор_артефакта</font>,
+			<font color="#ff0000">идентификатор_артефакта...</font></font></font></p>
+			<p class="msonormal" style="margin-bottom: 0cm;" align="left"><font face="Courier New, monospace"><font size="2">artefact_count
+			= <font color="#ff0000">количество_артефактов</font></font></font></p>
+			<p class="msonormal" style="margin-bottom: 0cm;" align="left"><font face="Courier New, monospace"><font size="2">idle_time
+			= <font color="#ff0000">время_между_рождениями_артефактов</font></font></font></p>
+			<p class="msonormal" style="margin-bottom: 0cm;" align="left"><font face="Courier New, monospace"><font size="2">applying_force_xz
+			= <font color="#ff0000">прилагаемая_сила_в_горизонтальной_плоскости</font></font></font></p>
+			<p class="msonormal" align="left"><font face="Courier New, monospace"><font size="2">applying_force_y
+			= <font color="#ff0000">прилагаемая_сила_по_вертикали</font></font></font></p>
+		</td>
+	</tr>
+</tbody></table>
+<p class="msonormal" style="margin-bottom: 0cm;" align="justify"><br>
+</p>
+<p class="msonormal" style="margin-bottom: 0cm;" align="justify">	Где:</p>
+<p class="msonormal" style="margin-bottom: 0cm;" align="justify"><br>
+</p>
+<table border="1" bordercolor="#000000" cellpadding="4" cellspacing="0" width="100%">
+	<col width="34*">
+	<col width="222*">
+	<tbody><tr><td style="text-align: center; background-color: rgb(51, 204, 102);">Имя параметра</td><td style="text-align: center; background-color: rgb(51, 204, 102);">Описание</td><td style="background-color: rgb(51, 204, 102);">Умолчания</td></tr><tr>
+		<td width="13%">
+			<p class="msonormal" align="left"><font face="Courier New, monospace"><font size="2"><b>artefact_ways</b></font></font></p>
+		</td>
+		<td valign="top" width="87%">
+			<p align="justify">Имена одного или нескольких путей (через
+			запятую), по которым будет двигаться артефакт.</p>
+		</td><td style="text-align: center; background-color: silver;"></td>
+	</tr>
+	<tr>
+		<td width="13%">
+			<p class="msonormal" align="left"><font face="Courier New, monospace"><font size="2"><b>artefacts</b></font></font></p>
+		</td>
+		<td valign="top" width="87%">
+			<p align="justify">Идентификаторы одного или нескольких типов
+			артефактов, которые будут рождаться в этой аномальной зоне.</p>
+		</td><td style="text-align: center; background-color: silver;"></td>
+	</tr>
+	<tr>
+		<td width="13%">
+			<p class="msonormal" align="left"><font face="Courier New, monospace"><font size="2">artefact_count</font></font></p>
+		</td>
+		<td valign="top" width="87%">
+			<p align="justify">Максимальное одновременное количество артефактов
+			в аномальной зоне.</p>
+		</td><td style="text-align: center;">1</td>
+	</tr>
+	<tr>
+		<td width="13%">
+			<p class="msonormal" align="left"><font face="Courier New, monospace"><font size="2">idle_time</font></font></p>
+		</td>
+		<td valign="top" width="87%">
+			<p align="justify"><font face="Times New Roman, serif"><font size="3">Время
+			(в секундах), через которое в аномальной зоне родится новый
+			артефакт после того, как количество артефактов в ней стало меньше,
+			чем <font color="#0000ff">artefact_count</font><font color="#000000">.</font></font></font></p>
+		</td><td style="text-align: center;">14400</td>
+	</tr>
+	<tr>
+		<td width="13%">
+			<p class="msonormal" align="left"><font face="Courier New, monospace"><font size="2">applying_force_xz</font></font></p>
+		</td>
+		<td valign="top" width="87%">
+			<p align="justify">Сила, которая прилагается к артефакту по
+			горизонтали. Чем это число больше, тем дальше прыгает артефакт.</p>
+		</td><td style="text-align: center;">200</td>
+	</tr>
+	<tr>
+		<td width="13%">
+			<p class="msonormal" align="left"><font face="Courier New, monospace"><font size="2">applying_force_y</font></font></p>
+		</td>
+		<td valign="top" width="87%">
+			<p align="justify">Сила, которая прилагается к артефакту по
+			вертикали. Чем это число больше, тем выше прыгает артефакт.</p>
+		</td><td style="text-align: center;">400</td>
+	</tr>
+</tbody></table>
+
+<p class="msonormal" style="margin-bottom: 0cm;" align="justify"><br>
+</p>
+<p class="msonormal" style="margin-bottom: 0cm;" align="justify">	Таким
+образом, в аномальной зоне по путям, случайным образом выбраным из
+путей <font color="#0000ff"><font face="Times New Roman, serif"><font size="3"><span style="">artefact_ways</span></font></font></font><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span style="">,</span></font></font></font><font face="Times New Roman, serif"><font size="3"><span style="">
+передвигаются</span></font></font> артефакты, случайным образом
+выбраные из типов<font face="Times New Roman, serif"><font size="3"><span style="">
+</span></font></font><font color="#0000ff"><font face="Times New Roman, serif"><font size="3"><span style="">artefacts</span></font></font></font><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span style="">,
+общим количеством </span></font></font></font><font color="#0000ff"><font face="Times New Roman, serif"><font size="3"><span style="">artefact_count</span></font></font></font><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span style="">.
+Если игрок забирает один или несколько артефактов, то новые рождаются
+по тем же правилам, по одному, с промежутком времени в </span></font></font></font><font color="#0000ff"><font face="Times New Roman, serif"><font size="3"><span style="">idle_time</span></font></font></font><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span style="">.
+Артефакты передвигаются прыжками, которые задаются с помощью
+</span></font></font></font><font color="#0000ff"><font face="Times New Roman, serif"><font size="3"><span style="">applying_force_xz</span></font></font></font><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span style="">
+и </span></font></font></font><font color="#0000ff"><font face="Times New Roman, serif"><font size="3"><span style="">applying_force_y</span></font></font></font><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span style="">.</span></font></font></font></p>
+<p class="msonormal" style="margin-bottom: 0cm;" align="justify"><br>
+</p>
+<p class="msonormal" style="margin-bottom: 0cm;" align="justify"><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span style="">Обычно
+ставятся только те сочетания </span></font></font></font><font color="#0000ff"><font face="Times New Roman, serif"><font size="3"><span style="">field</span></font></font></font><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span style="">
+и </span></font></font></font><font color="#0000ff"><font face="Times New Roman, serif"><font size="3"><span style="">mine</span></font></font></font><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span style="">,
+пересечения которых отмечены плюсами в следующей таблице, причём
+желательно, чтобы в пределах одной аномальной зоны стояли мины только
+одного типа. Другие
+сочетания или несколько типов мин ставятся только в исключительных
+случаях, когда это оправдано геометрией. Также в таблице
+указаны радиусы зон </span></font></font></font><font color="#0000ff"><font face="Times New Roman, serif"><font size="3"><span style="">mine</span></font></font></font><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span style="">
+и типы артефактов, которые могут рождаться в аномальной зоне с таким
+типом </span></font></font></font><font color="#0000ff"><font face="Times New Roman, serif"><font size="3"><span style="">mine</span></font></font></font><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span style="">.</span></font></font></font></p>
+<p class="msonormal" style="margin-bottom: 0cm;" align="justify"><br>
+</p>
+<table style="width: 100%;" border="1" bordercolor="#000000" cellpadding="4" cellspacing="0">
+	<col width="26*">
+	<col width="26*">
+	<col width="17*">
+	<col width="17*">
+	<col width="17*">
+	<col width="17*">
+	<col width="17*">
+	<col width="17*">
+	<col width="17*">
+	<col width="17*">
+	<col width="17*">
+	<col width="17*">
+	<col width="17*">
+	<col width="17*">
+	<tbody><tr>
+		<td bgcolor="#33cc66" width="10%">
+			<p style="background: rgb(51, 204, 102) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; text-decoration: none;" align="center">
+			<font color="#ffffff"><b>Поле (</b></font><font color="#ffffff"><b>field</b></font><font color="#ffffff"><b>)</b></font></p>
+		</td>
+		<td bgcolor="#00b8ff" width="10%">
+			<p align="center"><font color="#ffffff"><b><span style="text-decoration: none;">Мина (</span></b></font><font color="#ffffff"><b><span style="text-decoration: none;">mine</span></b></font><font color="#ffffff"><b><span style="text-decoration: none;">)</span></b></font></p>
+		</td>
+		<td colspan="3" bgcolor="#00b8ff" width="20%">
+			<p align="center">Thermal<br>(Огненная)</p>
+		</td>
+		<td colspan="3" bgcolor="#00b8ff" width="20%">
+			<p align="center">Gravitational<br>(Гравитационная)</p>
+		</td>
+		<td colspan="3" bgcolor="#00b8ff" width="20%">
+			<p align="center">Acidic<br>(Кислотная)</p>
+		</td>
+		<td colspan="3" bgcolor="#00b8ff" width="20%">
+			<p align="center">Electric<br>(Электрическая)</p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" bgcolor="#33cc66" width="20%">
+			<p align="center">Thermal (Огненное)</p>
+		</td>
+		<td colspan="3" bgcolor="#47b8b8" width="20%">
+			<p align="center"><span style="text-decoration: none;"><font face="Times New Roman, serif"><font size="3"><span style="font-style: normal;"><span style="">+</span></span></font></font></span></p>
+		</td>
+		<td colspan="3" bgcolor="#47b8b8" width="20%">
+			<p align="center">+</p>
+		</td>
+		<td colspan="3" width="20%">
+			<p align="center"><br>
+			</p>
+		</td>
+		<td colspan="3" width="20%">
+			<p align="center"><br>
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" bgcolor="#33cc66" width="20%">
+			<p align="center">Radioactive (Радиоактивное)</p>
+		</td>
+		<td colspan="3" width="20%">
+			<p align="center"><br>
+			</p>
+		</td>
+		<td colspan="3" bgcolor="#47b8b8" width="20%">
+			<p align="center"><span style="text-decoration: none;"><font face="Times New Roman, serif"><font size="3"><span style="font-style: normal;"><span style="">+</span></span></font></font></span></p>
+		</td>
+		<td colspan="3" bgcolor="#47b8b8" width="20%">
+			<p align="center"><span style="text-decoration: none;"><font face="Times New Roman, serif"><font size="3"><span style="font-style: normal;"><span style="">+</span></span></font></font></span></p>
+		</td>
+		<td colspan="3" bgcolor="#47b8b8" width="20%">
+			<p align="center">+</p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" bgcolor="#33cc66" width="20%">
+			<p align="center">Acidic (Кислотное)</p>
+		</td>
+		<td colspan="3" width="20%">
+			<p align="center"><br>
+			</p>
+		</td>
+		<td colspan="3" bgcolor="#47b8b8" width="20%">
+			<p align="center"><span style="text-decoration: none;"><font face="Times New Roman, serif"><font size="3"><span style="font-style: normal;"><span style="">+</span></span></font></font></span></p>
+		</td>
+		<td colspan="3" bgcolor="#47b8b8" width="20%">
+			<p align="center"><span style="text-decoration: none;"><font face="Times New Roman, serif"><font size="3"><span style="font-style: normal;"><span style="">+</span></span></font></font></span></p>
+		</td>
+		<td colspan="3" width="20%">
+			<p align="center"><br>
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" bgcolor="#33cc66" width="20%">
+			<p align="center">Psychic (Психическое)</p>
+		</td>
+		<td colspan="3" bgcolor="#47b8b8" width="20%">
+			<p align="center">+</p>
+		</td>
+		<td colspan="3" width="20%">
+			<p align="center"><br>
+			</p>
+		</td>
+		<td colspan="3" width="20%">
+			<p align="center"><br>
+			</p>
+		</td>
+		<td colspan="3" bgcolor="#47b8b8" width="20%">
+			<p align="center"><span style="text-decoration: none;"><font face="Times New Roman, serif"><font size="3"><span style="font-style: normal;"><span style="">+</span></span></font></font></span></p>
+		</td>
+	</tr>
+	<tr>
+		<td rowspan="2" colspan="2" bgcolor="#00b8ff" width="20%">
+			<p style="background: rgb(0, 184, 255) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;" align="center"><font color="#ffffff"><b>Радиус мины по её силе</b></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">weak (слабая)</font></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">average (средняя)</font></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">strong (сильная)</font></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">weak (слабая)</font></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">average (средняя)</font></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">strong (сильная)</font></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">weak (слабая)</font></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">average (средняя)</font></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">strong (сильная)</font></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">weak (слабая)</font></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">average (средняя)</font></font></p>
+		</td>
+		<td bgcolor="#00b8ff">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">strong (сильная)</font></font></p>
+		</td>
+	</tr>
+	<tr>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">1.5</font></font></p>
+		</td>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">1.5</font></font></p>
+		</td>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">1.5</font></font></p>
+		</td>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">3</font></font></p>
+		</td>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">4</font></font></p>
+		</td>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">4</font></font></p>
+		</td>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">1</font></font></p>
+		</td>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">1</font></font></p>
+		</td>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">1</font></font></p>
+		</td>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">1.5</font></font></p>
+		</td>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">1.5</font></font></p>
+		</td>
+		<td width="7%">
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">1.5</font></font></p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" bgcolor="#00b8ff" width="20%">
+			<p align="center"><font color="#ffffff"><b>Типы артефактов по типам мин</b></font></p>
+		</td>
+		<td colspan="3" width="20%">
+			
+			
+			
+			
+			<p align="center">
+			<font face="Times New Roman, serif"><font size="3">af_cristall<br>af_fireball<br>af_dummy_glassbeads<br>af_eye</font></font><br><span style="text-decoration: none;"><font face="Times New Roman, serif"><font size="3"><span style="font-style: normal;"><span style="">af_fire</span></span></font></font></span></p>
+		</td>
+		<td colspan="3" width="20%">
+			
+			
+			
+			
+			
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">af_medusa<br>af_cristall_flower<br>af_night_star<br>af_vyvert<br>af_gravi<br>af_gold_fish</font></font></p>
+		</td>
+		<td colspan="3" width="20%">
+			
+			
+			
+			
+			
+			<p align="center">
+			<font face="Times New Roman, serif"><font size="3">af_blood<br>af_mincer_meat<br>af_soul<br>af_fuzz_kolobok<br>af_baloon</font></font><br><span style="text-decoration: none;"><font face="Times New Roman, serif"><font size="3"><span style="font-style: normal;"><span style="">af_glass</span></span></font></font></span></p>
+		</td>
+		<td colspan="3" width="20%">
+			
+			
+			
+			
+			
+			<p style="font-style: normal; text-decoration: none;" align="center">
+			<font face="Times New Roman, serif"><font size="3">af_electra_sparkler<br>af_electra_flash<br>af_electra_moonlight<br>af_dummy_battery<br>af_dummy_dummy<br>af_ice</font></font></p>
+		</td>
+	</tr>
+</tbody></table>
+<br><p class="msonormal" style="margin-bottom: 0cm;" align="justify"><font size="3"><font color="#008000"><span lang="en-US"><b>	Note</b></span></font><font color="#008000">:<span style="color: black;"> радиус зоны </span></font></font><font size="3"><font color="#000000"><span style=""></span></font><font color="#0000ff"><span style="">field</span></font></font><font size="3"><font color="#008000"><span style="color: black;"> можно менять в соответствии с необходимостью. Радиус зон </span></font></font><font size="3"><font color="#0000ff"><span style="">mine</span></font></font><font size="3"><font color="#008000"><span style="color: black;"> нельзя менять ни в коем случае, так как визуальная часть зоны размера не меняет. Таким образом при увеличении радиуса </span></font></font><font size="3"><font color="#0000ff"><span style="">mine</span></font></font><font size="3"><font color="#008000"><span style="color: black;">&nbsp;игрок
+будет получать повреждение, визуально находясь вне аномалии-мины, а при
+уменьшении - бродить в аномалии-мине, не получая повреждения. </span></font></font><font size="3"><font color="#008000"><span lang="en-US"><b>	</b></span></font></font></p><p class="msonormal" style="margin-bottom: 0cm;" align="justify"><font size="3"><font color="#008000"><span lang="en-US"><b>Note</b></span></font><font color="#008000">:<span style="color: black;"> диаметр группы партиклов поля&nbsp;</span></font></font><span style="color: blue;">zone<span style="color: red;"></span>__idle</span><font size="3"><font color="#008000"><span style="color: black;"> - примерно 10 метров. Потому для аномальной зоны диаметром 30 метров достаточно пяти&nbsp;</span></font></font><span style="color: blue;">zone<span style="color: red;"></span>__idle</span><font size="3"><font color="#008000"><span style="color: black;"></span></font></font><font size="3"><font color="#008000"><span style="color: black;">, поставленных по кругу. Можно поставить шестую&nbsp;</span></font></font><span style="color: blue;">zone<span style="color: red;"></span>__idle</span><font size="3"><font color="#008000"><span style="color: black;"></span></font></font><font size="3"><font color="#008000"><span style="color: black;"> посредине. Соответственно, чем меньше аномальная зона - тем меньше нужно ставить&nbsp;</span></font></font><span style="color: blue;">zone_<span style="color: red;"></span>_idle</span><font size="3"><font color="#008000"><span style="color: black;"></span></font></font><font size="3"><font color="#008000"><span style="color: black;">, и наоборот. Избыток&nbsp;</span></font></font><span style="color: blue;">zone<span style="color: red;"></span>__idle</span><font size="3"><font color="#008000"><span style="color: black;"></span></font></font><font size="3"><font color="#008000"><span style="color: black;"> в кадре приведёт к тормозам.</span></font></font></p><p class="msonormal" style="margin-bottom: 0cm;" align="justify"><font size="3"><font color="#008000"><span lang="en-US"><b>	Note</b></span></font><font color="#008000">:<span style="color: black;"> </span></font></font><font size="3">группы партиклов <font color="#0000ff"><span style=""></span></font><font color="#000000"><span style=""></span></font></font><span style="color: blue;">zone_<span style="color: red;"></span>_idle</span><font size="3"><font color="#000000"><span style="">
+должны находиться в пределах зоны </span></font><font color="#0000ff"><span style="">field<span style="color: black;">, и быть того же типа, что и</span></span></font></font><font size="3"><font color="#0000ff"><span style=""><span style="color: black;"> </span>field<span style="color: black;">. Для&nbsp;</span></span></font></font><font size="3"><font color="#0000ff"><span style="">field<span style="color: black;"> типа <span style="color: blue;">radioactive</span> партиклы не нужны.</span></span></font></font><font size="3"><font color="#0000ff"><span style=""> </span></font><font color="#000000"><span style=""></span></font></font></p>
+<p class="msonormal" style="margin-bottom: 0cm;"><font size="3"><font color="#008000"><span lang="en-US"><b>	Note</b></span></font><font color="#008000">:</font>
+зоны <font color="#0000ff"><span style="">mine</span></font><font color="#000000"><span style="">
+должны быть в пределах зоны </span></font><font color="#0000ff"><span style="">field</span></font><font color="#000000"><span style="">,
+и стоять так, чтобы пройти между ними было можно, но сложно</span></font>.</font></p>
+<p class="msonormal" style="margin-bottom: 0cm;"><font size="3"><font color="#008000"><span lang="en-US"><b>	Note</b></span></font><font color="#008000">:</font><font color="#000000">
+пути передвижения артефактов <span style="color: blue;">way</span> не должны быть слишком близко к краю
+зоны </font><font color="#0000ff"><span style="">field</span></font><font color="#000000"><span style="">,
+иначе игрок сможет схватить артефакт, не заходя в аномальную зону.</span></font></font></p><p class="msonormal" style="margin-bottom: 0cm;"><font size="3"><font color="#008000"><span lang="en-US"><b>	Note</b></span></font><font color="#008000">:</font><font color="#000000">
+&nbsp;</font></font><font size="3"><font color="#000000"><span style="">как
+правило, одного пути&nbsp;</span></font></font><font size="3"><font color="#000000"><span style="color: blue;">way<span style="color: black;"> на аномальную зону</span></span></font></font><font size="3"><font color="#000000"><span style=""> с одним артефактом вполне достаточно. Один из лучших вариантов пути - ломаное кольцо, идущее&nbsp;параллельно границе&nbsp;</span></font></font><font size="3"><font color="#0000ff"><span style="">field<span style="color: black;">'а</span></span></font></font><font size="3"><font color="#0000ff"><span style=""><span style="color: black;">. Как показали опыты,
+желательно, чтобы каждая точка пути была соединена со следующей и
+предыдущей точками пути, &nbsp;и не была соединена ни с какими
+другими.</span></span></font></font></p>
+<p class="msonormal" style="margin-bottom: 0cm;"><font size="3"><font color="#000000"><span style="">	</span></font><font color="#008000"><span lang="en-US"><b>Note</b></span></font><font color="#008000"><span style="">:</span></font><font color="#000000"><span style="">
+максимальное количество артефактов </span></font><font color="#0000ff"><span style="">artefact_count
+</span></font><font color="#000000"><span style="">должно
+быть небольшим (одного вполне достаточно), а время рождения </span></font><font color="#0000ff"><span style="">idle_time</span></font><font color="#000000"><span style="">
+— достаточно долгим (несколько часов). Если вам не нужно
+изобразить что-то особо хитрое — не указывайте эти значения.</span></font></font></p>
+<p class="msonormal" style="margin-bottom: 0cm;"><font size="3"><font color="#000000"><span style="">	</span></font><font color="#008000"><span lang="en-US"><b>Note</b></span></font><font color="#008000"><span style="">:</span></font><font color="#000000"><span style="">
+если не готовы много экспериментировать, не указывайте значения 
+</span></font><font color="#0000ff"><span style="">applying_force_xz</span></font><font color="#000000"><span style="">
+и </span></font><font color="#0000ff"><span style="">applying_force_y</span></font><font color="#000000"><span style="">.
+Слишком большие цифры могут привести к тому, что артефакт будет
+выпрыгивать за аномальную зону, а слишком маленькие — к
+медленному передвижению артефакта.</span></font></font></p>
+</body></html>

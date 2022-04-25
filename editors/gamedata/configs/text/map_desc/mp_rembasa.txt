@@ -1,0 +1,6 @@
+[map_info]
+name = "Rembasa"
+players = 4-32
+modes = "Deathmatch, TeamdDeathmatch, Artefacthunt, CaptureTheArtefact"
+short_desc = "ui_map_desc_mp_rembasa_short"
+large_desc = "ui_map_desc_mp_rembasa_large"

@@ -1,0 +1,1 @@
+start bin\designer\mixed\ActorEditor.exe -editor

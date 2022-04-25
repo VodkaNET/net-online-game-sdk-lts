@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<game_dialogs>
+    <dialog ="">
+        <phrase_list>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+            </phrase>
+            <phrase ="">
+                <text></text>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+                <next></next>
+                <next></next>
+                <next></next>
+                <next></next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog ="">
+        <phrase_list>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+            </phrase>
+            <phrase ="">
+                <text></text>
+            </phrase>
+            <phrase ="">
+                <text></text>
+            </phrase>
+            <phrase ="">
+                <text />
+            </phrase>
+            <phrase ="">
+                <text />
+                <next></next>
+                <next></next>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+                <next></next>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+                <next></next>
+                <next></next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog ="">
+        <phrase_list>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+            <phrase ="">
+                <text></text>
+            </phrase>
+            <phrase ="">
+                <text></text>
+                <next></next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+</game_dialogs>

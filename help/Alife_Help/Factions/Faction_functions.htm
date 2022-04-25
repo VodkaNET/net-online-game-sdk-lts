@@ -1,0 +1,790 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 12">
+<meta name=Originator content="Microsoft Word 12">
+<link rel=File-List
+href="Функции%20для%20работы%20с%20группировками.files/filelist.xml">
+<title>Функции для работы с группировками</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>must_die</o:Author>
+  <o:LastAuthor>must_die</o:LastAuthor>
+  <o:Revision>32</o:Revision>
+  <o:TotalTime>111</o:TotalTime>
+  <o:Created>2007-07-23T12:10:00Z</o:Created>
+  <o:LastSaved>2007-12-12T13:26:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>486</o:Words>
+  <o:Characters>2776</o:Characters>
+  <o:Company>GSC</o:Company>
+  <o:Lines>23</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3256</o:CharactersWithSpaces>
+  <o:Version>12.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData
+href="Функции%20для%20работы%20с%20группировками.files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="Функции%20для%20работы%20с%20группировками.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="--"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" LatentStyleCount="267">
+  <w:LsdException Locked="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="99" Name="No List"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+pre
+	{mso-style-unhide:no;
+	mso-style-link:"Стандартный HTML Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+span.HTML
+	{mso-style-name:"Стандартный HTML Знак";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Стандартный HTML";
+	font-family:"Consolas","serif";
+	mso-ascii-font-family:Consolas;
+	mso-hansi-font-family:Consolas;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>Функции для
+работы с группировками<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span lang=RU style='font-size:14.0pt;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span lang=RU style='font-size:14.0pt;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=RU
+style='font-size:14.0pt;mso-ansi-language:RU'>Функции эффектов<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+lang=RU style='color:red;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ 1.5pt solid windowtext;mso-border-insidev:1.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:231.1pt'>
+  <td width=419 valign=top style='width:314.25pt;border:solid windowtext 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:231.1pt'>
+  <p class=MsoNormal style='tab-stops:right 930.0pt'><span lang=EN-GB
+  style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+  EN-GB;mso-no-proof:yes'>create</span><span lang=RU style='font-size:10.0pt;
+  font-family:"Courier New";color:black;mso-ansi-language:RU;mso-no-proof:yes'>_</span><span
+  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New";color:black;
+  mso-ansi-language:EN-GB;mso-no-proof:yes'>squad</span><span lang=RU
+  style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:RU;
+  mso-no-proof:yes'>(<span style='color:red'>имя_отряда</span><span
+  style='color:black'>:</span><span style='color:red'>имя_смарта</span>)</span><span
+  lang=RU style='color:red;mso-ansi-language:RU'><o:p></o:p></span></p>
+  </td>
+  <td width=819 valign=top style='width:614.25pt;border:solid windowtext 1.5pt;
+  border-left:none;mso-border-left-alt:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:231.1pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>Создаёт в <span
+  class=SpellE>смарте</span> с именем<span style='color:red;mso-no-proof:yes'>
+  имя_смарта</span> отряд с именем <span class=SpellE><span style='color:red'>имя_отряда</span></span>,
+  параметры которого описаны в файле «<span class=SpellE><span
+  style='color:red'>локальная_папка_аддона</span>\<span lang=EN-US
+  style='mso-ansi-language:EN-US'>gamedata</span></span>\</span><span
+  class=SpellE><span style='font-size:14.0pt'>configs</span></span><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>\</span><span
+  style='font-size:14.0pt'>misc</span><span lang=RU style='font-size:14.0pt;
+  mso-ansi-language:RU'>\</span><span style='font-size:14.0pt'>squad</span><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>_</span><span
+  class=SpellE><span style='font-size:14.0pt'>descr</span></span><span lang=RU
+  style='font-size:14.0pt;mso-ansi-language:RU'>.</span><span class=SpellE><span
+  style='font-size:14.0pt'>ltx</span></span><span lang=RU style='font-size:
+  14.0pt;mso-ansi-language:RU'>». Отряд описывается в этом файле как:<o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+  <div style='mso-element:para-border-div;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+  <p class=MsoNormal style='tab-stops:right 930.0pt;border:none;mso-border-alt:
+  solid windowtext .5pt;padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU'>[<span class=SpellE><span style='color:red'>имя_отряда</span></span>]<o:p></o:p></span></p>
+  <p class=MsoNormal style='tab-stops:right 930.0pt;border:none;mso-border-alt:
+  solid windowtext .5pt;padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>faction</span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU'> = <span class=SpellE><span style='color:red'>имя_группировки</span></span><o:p></o:p></span></p>
+  <p class=MsoNormal style='tab-stops:right 930.0pt;border:none;mso-border-alt:
+  solid windowtext .5pt;padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span
+  class=GramE><span style='font-size:10.0pt;font-family:"Courier New"'>npc</span></span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU'> = <span class=SpellE><span style='color:red'>спаун-секция_представителя_группировки</span></span>,
+  <span class=SpellE><span style='color:red'>спаун-секция_представителя_группировки</span></span><span
+  style='color:red'>...</span><o:p></o:p></span></p>
+  <p class=MsoNormal style='tab-stops:right 930.0pt;border:none;mso-border-alt:
+  solid windowtext .5pt;padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span
+  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-GB;mso-no-proof:yes'>target</span><span lang=RU style='font-size:10.0pt;
+  font-family:"Courier New";mso-ansi-language:RU;mso-no-proof:yes'>_</span><span
+  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-GB;mso-no-proof:yes'>smart</span><span lang=EN-GB style='font-size:10.0pt;
+  font-family:"Courier New";mso-ansi-language:RU;mso-no-proof:yes'> </span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU'>= {<span class=SpellE><span style='color:red'>кондлист</span></span>} <span
+  class=SpellE><span style='color:red'>имя_целевого_смарта</span>:<span
+  style='color:red'>имя_целевого_смарта</span></span>, {<span class=SpellE><span
+  style='color:red'>кондлист</span></span>} <span class=SpellE><span
+  style='color:red'>имя_целевого_смарта</span>:<span style='color:red'>имя_целевого_смарта</span></span><span
+  style='color:red'>...<o:p></o:p></span></span></p>
+  <p class=MsoNormal style='tab-stops:right 930.0pt;border:none;mso-border-alt:
+  solid windowtext .5pt;padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span
+  style='font-size:10.0pt;font-family:"Courier New";mso-no-proof:yes'>spawn</span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU;mso-no-proof:yes'>_</span><span style='font-size:10.0pt;font-family:"Courier New";
+  mso-no-proof:yes'>point</span><span lang=RU style='font-size:10.0pt;
+  font-family:"Courier New";mso-ansi-language:RU;mso-no-proof:yes'> = <span
+  style='color:red'>точка_появления</span></span><span lang=RU
+  style='font-size:10.0pt;font-family:"Courier New";color:red;mso-ansi-language:
+  RU'><o:p></o:p></span></p>
+  </div>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  class=SpellE><span lang=RU style='font-size:14.0pt;color:red;mso-ansi-language:
+  RU'>имя_отряда</span></span><span lang=RU style='font-size:14.0pt;mso-ansi-language:
+  RU'> –<span style='color:red'> </span>может быть любым, лишь бы оно совпадало
+  в файле настроек отрядов и в вызове функции.<o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  class=SpellE><span lang=RU style='font-size:14.0pt;color:red;mso-ansi-language:
+  RU'>имя_группировки</span></span><span lang=RU style='font-size:14.0pt;
+  mso-ansi-language:RU'> – группировка, которой принадлежит создаваемый отряд
+  (можно взять из файла </span><span style='font-size:14.0pt;color:green'>game</span><span
+  lang=RU style='font-size:14.0pt;color:green;mso-ansi-language:RU'>_</span><span
+  style='font-size:14.0pt;color:green'>relations</span><span lang=RU
+  style='font-size:14.0pt;color:green;mso-ansi-language:RU'>.</span><span
+  class=SpellE><span style='font-size:14.0pt;color:green'>ltx</span></span><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>).<o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  class=SpellE><span lang=RU style='font-size:14.0pt;color:red;mso-ansi-language:
+  RU'>спаун-секция_представителя_группировки</span></span><span lang=RU
+  style='font-size:14.0pt;mso-ansi-language:RU'> – имя секции из файла </span><span
+  style='font-size:14.0pt;color:green'>spawn</span><span lang=RU
+  style='font-size:14.0pt;color:green;mso-ansi-language:RU'>_</span><span
+  style='font-size:14.0pt;color:green'>sections</span><span lang=RU
+  style='font-size:14.0pt;color:green;mso-ansi-language:RU'>.</span><span
+  class=SpellE><span style='font-size:14.0pt;color:green'>ltx</span></span><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>, задаёт одного из
+  бойцов отряда. <span class=GramE>Возможно</span> задать до пяти бойцов (через
+  запятую).<o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  style='font-size:14.0pt'>target</span><span lang=RU style='font-size:14.0pt;
+  mso-ansi-language:RU'>_</span><span style='font-size:14.0pt'>smart</span><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'> –<span
+  style='color:red'> </span>указание лагерей, в который отправится отряд. Возможно
+  (через двоеточия) указать отряду последовательность лагерей, которые, один за
+  другим, он должен посетить. Если следующий лагерь не указан – отряд останется
+  удерживать нынешний лагерь. Если вместо следующего лагеря стоит </span><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt'>nil</span></b><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>, то отряд уйдёт под
+  контроль симуляции. В этом параметре возможно использование <span
+  class=SpellE>кондлиста</span>, например:<o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU'>{+</span><span style='font-size:10.0pt;font-family:"Courier New"'>info</span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU'>_</span><span style='font-size:10.0pt;font-family:"Courier New"'>test</span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU'>} </span><span style='font-size:10.0pt;font-family:"Courier New"'>smart</span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU'>_1:</span><span style='font-size:10.0pt;font-family:"Courier New"'>smart</span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU'>_2, </span><span style='font-size:10.0pt;font-family:"Courier New"'>smart</span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU'>_3:</span><span style='font-size:10.0pt;font-family:"Courier New"'>nil</span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU'><o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>То есть, если выдан <span
+  class=SpellE>инфопоршн</span> </span><span style='font-size:14.0pt'>info</span><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>_</span><span
+  style='font-size:14.0pt'>test</span><span lang=RU style='font-size:14.0pt;
+  mso-ansi-language:RU'>, то отряд пойдёт в </span><span style='font-size:14.0pt'>smart</span><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>_1, а потом – в </span><span
+  style='font-size:14.0pt'>smart</span><span lang=RU style='font-size:14.0pt;
+  mso-ansi-language:RU'>_2, где и останется, иначе отряд пойдёт в </span><span
+  style='font-size:14.0pt'>smart</span><span lang=RU style='font-size:14.0pt;
+  mso-ansi-language:RU'>_3, а по его достижению уйдёт под контроль симуляции.<o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'><span
+  style='mso-spacerun:yes'> </span><span style='color:red'><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;color:red;mso-ansi-language:RU;mso-no-proof:
+  yes'>точка_появления</span><span lang=RU style='font-size:14.0pt;mso-ansi-language:
+  RU'> – (опционально<span style='mso-no-proof:yes'>) имя пути, в нулевой точке
+  которого появится отряд.</span><span style='color:red'><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:40.85pt'>
+  <td width=419 valign=top style='width:314.25pt;border:solid windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:40.85pt'>
+  <p class=MsoNormal style='tab-stops:right 930.0pt'><span style='font-size:
+  10.0pt;font-family:"Courier New";color:black;mso-no-proof:yes'>remove_squad(</span><span
+  style='font-size:10.0pt;font-family:"Courier New";color:red;mso-no-proof:
+  yes'>имя_отряда</span><span style='font-size:10.0pt;font-family:"Courier New";
+  color:black;mso-no-proof:yes'>)</span><span style='color:red'><o:p></o:p></span></p>
+  </td>
+  <td width=819 valign=top style='width:614.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.5pt;
+  mso-border-top-alt:solid windowtext 1.5pt;mso-border-left-alt:solid windowtext 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:40.85pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>Уничтожает отряд с
+  именем <span class=SpellE><span style='color:red'>имя_отряда</span></span>,
+  которое можно взять из файла «<span class=SpellE><span style='color:red'>локальная_папка_аддона</span>\<span
+  lang=EN-US style='mso-ansi-language:EN-US'>gamedata</span></span>\</span><span
+  class=SpellE><span style='font-size:14.0pt'>configs</span></span><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>\</span><span
+  style='font-size:14.0pt'>misc</span><span lang=RU style='font-size:14.0pt;
+  mso-ansi-language:RU'>\</span><span style='font-size:14.0pt'>squad</span><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>_</span><span
+  class=SpellE><span style='font-size:14.0pt'>descr</span></span><span lang=RU
+  style='font-size:14.0pt;mso-ansi-language:RU'>.</span><span class=SpellE><span
+  style='font-size:14.0pt'>ltx</span></span><span lang=RU style='font-size:
+  14.0pt;mso-ansi-language:RU'>».<o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+lang=RU style='font-size:14.0pt;color:red;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=RU
+style='font-size:14.0pt;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=RU
+style='font-size:14.0pt;mso-ansi-language:RU'>Функции условий<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+lang=RU style='color:red;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ 1.5pt solid windowtext;mso-border-insidev:1.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:36.7pt'>
+  <td width=438 valign=top style='width:328.8pt;border:solid windowtext 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:36.7pt'>
+  <p class=MsoNormal style='tab-stops:right 930.0pt'><span style='font-size:
+  10.0pt;font-family:"Courier New";color:black;mso-no-proof:yes'>smart</span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";color:black;
+  mso-ansi-language:RU;mso-no-proof:yes'>_</span><span style='font-size:10.0pt;
+  font-family:"Courier New";color:black;mso-no-proof:yes'>captured</span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  RU;mso-no-proof:yes'>(<span style='color:red'>имя_смарта</span>:<span
+  style='color:red'>имя_смарта</span>:<span style='color:red'>имя_смарта…</span>)</span><span
+  lang=RU style='color:red;mso-ansi-language:RU'><o:p></o:p></span></p>
+  </td>
+  <td width=800 valign=top style='width:599.7pt;border:solid windowtext 1.5pt;
+  border-left:none;mso-border-left-alt:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:36.7pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>Принадлежит ли
+  группировке лагерь с именем <span class=SpellE><span style='color:red'>имя_смарта</span></span>.
+  Можно указать несколько лагерей через двоеточие. </span><span class=SpellE><span
+  style='font-size:14.0pt'>Только</span></span><span style='font-size:14.0pt'> <span
+  class=SpellE>для</span> <span class=SpellE>использования</span> в файле
+  настроек группировки.<o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:25.25pt'>
+  <td width=438 valign=top style='width:328.8pt;border:solid windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:25.25pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  style='font-size:10.0pt;font-family:"Courier New";color:black;mso-no-proof:
+  yes'>science_level(</span><span style='font-size:10.0pt;font-family:"Courier New";
+  color:red;mso-no-proof:yes'>уровень_науки</span><span style='font-size:10.0pt;
+  font-family:"Courier New";color:black;mso-no-proof:yes'>)</span><span
+  style='font-size:14.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=800 valign=top style='width:599.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.5pt;
+  mso-border-top-alt:solid windowtext 1.5pt;mso-border-left-alt:solid windowtext 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.25pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU;mso-no-proof:yes'>Не
+  меньше ли у группировки уровень науки чем <span style='color:red'>уровень_науки</span>.
+  </span><span lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>Только для
+  использования в файле настроек группировки.<span style='mso-no-proof:yes'><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;height:25.7pt'>
+  <td width=438 valign=top style='width:328.8pt;border:solid windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:25.7pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  style='font-size:10.0pt;font-family:"Courier New";color:black;mso-no-proof:
+  yes'>wealth_level(</span><span style='font-size:10.0pt;font-family:"Courier New";
+  color:red;mso-no-proof:yes'>уровень_богатства</span><span style='font-size:
+  10.0pt;font-family:"Courier New";color:black;mso-no-proof:yes'>)</span><span
+  style='font-size:14.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=800 valign=top style='width:599.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.5pt;
+  mso-border-top-alt:solid windowtext 1.5pt;mso-border-left-alt:solid windowtext 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:25.7pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU;mso-no-proof:yes'>Не
+  меньше ли у группировки уровень богатства чем <span style='color:red'>уровень_богатства</span></span><span
+  lang=RU style='font-size:10.0pt;font-family:"Courier New";color:red;
+  mso-ansi-language:RU;mso-no-proof:yes'>. </span><span class=SpellE><span
+  style='font-size:14.0pt'>Только</span></span><span style='font-size:14.0pt'> <span
+  class=SpellE>для</span> <span class=SpellE>использования</span> в файле
+  настроек группировки.</span><span style='font-size:10.0pt;font-family:"Courier New";
+  color:red;mso-no-proof:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;height:34.35pt'>
+  <td width=438 valign=top style='width:328.8pt;border:solid windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:34.35pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  style='font-size:10.0pt;font-family:"Courier New";color:black;mso-no-proof:
+  yes'>squad_quantity(</span><span style='font-size:10.0pt;font-family:"Courier New";
+  color:red;mso-no-proof:yes'>количество_отрядов</span><span style='font-size:
+  10.0pt;font-family:"Courier New";color:black;mso-no-proof:yes'>)</span><span
+  style='font-size:14.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=800 valign=top style='width:599.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.5pt;
+  mso-border-top-alt:solid windowtext 1.5pt;mso-border-left-alt:solid windowtext 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:34.35pt'>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU;mso-no-proof:yes'>Есть
+  ли у группировки количество отрядов не меньшее чем <span style='color:red'>количество_отрядов.</span>
+  Эта функция пока неоптимальна, потому часто её использовать не следует. </span><span
+  class=SpellE><span style='font-size:14.0pt'>Только</span></span><span
+  style='font-size:14.0pt'> <span class=SpellE>для</span> <span class=SpellE>использования</span>
+  в файле настроек группировки.<span style='mso-no-proof:yes'><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:14.0pt;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;height:23.65pt'>
+  <td width=438 valign=top style='width:328.8pt;border:solid windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:23.65pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  style='font-size:10.0pt;font-family:"Courier New";color:black;mso-no-proof:
+  yes'>smart_quantity(</span><span style='font-size:10.0pt;font-family:"Courier New";
+  color:red;mso-no-proof:yes'>количество_лагерей</span><span style='font-size:
+  10.0pt;font-family:"Courier New";color:black;mso-no-proof:yes'>)</span><span
+  style='font-size:14.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=800 valign=top style='width:599.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.5pt;
+  mso-border-top-alt:solid windowtext 1.5pt;mso-border-left-alt:solid windowtext 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:23.65pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU;mso-no-proof:yes'>Есть
+  ли у группировки количество лагерей не меньшее чем <span style='color:red'>количество_лагерей.</span>
+  Эта функция пока неоптимальна, потому часто её использовать не следует. </span><span
+  class=SpellE><span style='font-size:14.0pt'>Только</span></span><span
+  style='font-size:14.0pt'> <span class=SpellE>для</span> <span class=SpellE>использования</span>
+  в файле настроек группировки.<span style='mso-no-proof:yes'><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;height:9.45pt'>
+  <td width=438 valign=top style='width:328.8pt;border:solid windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:9.45pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-GB;mso-no-proof:yes'>smart_captured_by_faction(</span><span
+  style='font-size:10.0pt;font-family:"Courier New";color:red;mso-no-proof:
+  yes'>имя_смарта</span><span lang=EN-GB style='font-size:10.0pt;font-family:
+  "Courier New";mso-ansi-language:EN-GB;mso-no-proof:yes'>:</span><span
+  style='font-size:10.0pt;font-family:"Courier New";color:red;mso-no-proof:
+  yes'>имя_группировки</span><span lang=EN-GB style='font-size:10.0pt;
+  font-family:"Courier New";mso-ansi-language:EN-GB;mso-no-proof:yes'>)<o:p></o:p></span></p>
+  </td>
+  <td width=800 valign=top style='width:599.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.5pt;
+  mso-border-top-alt:solid windowtext 1.5pt;mso-border-left-alt:solid windowtext 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:9.45pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU;mso-no-proof:yes'>Принадлежит
+  ли группировке с именем <span style='color:red'>имя_группировки</span> лагерь
+  с именем <span style='color:red'>имя_смарта</span>. <o:p></o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6;height:18.0pt'>
+  <td width=438 valign=top style='width:328.8pt;border:solid windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:18.0pt'><pre><span class=SpellE>squad_exist</span>(<span class=SpellE><span
+  style='color:red;mso-no-proof:yes'>имя_отряда</span></span>)</pre></td>
+  <td width=800 valign=top style='width:599.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.5pt;
+  mso-border-top-alt:solid windowtext 1.5pt;mso-border-left-alt:solid windowtext 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>Существует ли отряд с
+  именем <span class=SpellE><span style='color:red'>имя_отряда</span></span>.
+  Имя можно взять из файла «<span class=SpellE><span style='color:red'>локальная_папка_аддона</span>\<span
+  lang=EN-US style='mso-ansi-language:EN-US'>gamedata</span></span>\</span><span
+  class=SpellE><span style='font-size:14.0pt'>configs</span></span><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>\</span><span
+  style='font-size:14.0pt'>misc</span><span lang=RU style='font-size:14.0pt;
+  mso-ansi-language:RU'>\</span><span style='font-size:14.0pt'>squad</span><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>_</span><span
+  class=SpellE><span style='font-size:14.0pt'>descr</span></span><span lang=RU
+  style='font-size:14.0pt;mso-ansi-language:RU'>.</span><span class=SpellE><span
+  style='font-size:14.0pt'>ltx</span></span><span lang=RU style='font-size:
+  14.0pt;mso-ansi-language:RU'>».<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;mso-yfti-lastrow:yes;height:18.0pt'>
+  <td width=438 valign=top style='width:328.8pt;border:solid windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:18.0pt'>
+  <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>squad</span><span lang=RU
+  style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:RU'>_</span><span
+  style='font-size:10.0pt;font-family:"Courier New"'>in</span><span lang=RU
+  style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:RU'>_</span><span
+  style='font-size:10.0pt;font-family:"Courier New"'>zone</span><span lang=RU
+  style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:RU'>(<span
+  class=SpellE><span style='color:red'>идентификатор_отряда</span>:<span
+  style='color:red'>имя_спейс_рестриктора</span></span>)<o:p></o:p></span></p>
+  </td>
+  <td width=800 valign=top style='width:599.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.5pt;
+  mso-border-top-alt:solid windowtext 1.5pt;mso-border-left-alt:solid windowtext 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+  lang=RU style='font-size:14.0pt;mso-ansi-language:RU'>Находится ли отряд <span
+  class=SpellE><span style='color:red'>идентификатор_отряда</span></span><span
+  style='color:red'> </span>в спейс-рестрикторе<span style='color:red'> <span
+  class=SpellE>имя_спейс_рестриктора</span></span>.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+lang=RU style='font-size:14.0pt;color:red;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;tab-stops:right 930.0pt'><span
+lang=RU style='font-size:14.0pt;color:red;mso-ansi-language:RU'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

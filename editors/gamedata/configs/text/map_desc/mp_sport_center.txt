@@ -1,0 +1,6 @@
+[map_info]
+name = "Sport Center"
+players = 6-32
+modes = "Deathmatch, TeamdDeathmatch, Artefacthunt, CaptureTheArtefact"
+short_desc = "ui_map_desc_mp_sport_center_short"
+large_desc = "ui_map_desc_mp_sport_center_large"

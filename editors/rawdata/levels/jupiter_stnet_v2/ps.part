@@ -1,0 +1,738 @@
+[guid]
+        guid_g0                          = 4816257301467301627
+        guid_g1                          = 4960127225431719567
+ 
+[main]
+        objects_count                    = 66
+        version                          = 0
+ 
+[modif]
+        name                             =
+        time                             = 0
+ 
+[object_0]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = jup_b201_ps_0008
+        position                         = 231.572304, 15.175407, -302.317856
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_1]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = jup_b201_ps_0009
+        position                         = 236.635344, 15.175407, -302.333792
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_10]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0012
+        position                         = 78.080208, 5.328322, 25.782948
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.036083, 0.652919, 0.062573
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_11]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0013
+        position                         = 90.591176, 3.960504, 42.968320
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.056743, -0.000135, -0.002376
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_12]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0014
+        position                         = 86.429344, 4.593544, 33.924076
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.060889, 0.001116, 0.018331
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_13]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0015
+        position                         = 88.110544, 5.081826, 25.413046
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.060889, 0.001116, 0.018331
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_14]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0016
+        position                         = 111.149560, 3.764984, 23.648686
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.002279, -0.000001, 0.000284
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_15]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0017
+        position                         = 103.804936, 4.260746, 21.390442
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.011689, 0.001051, 0.089682
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_16]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0018
+        position                         = 94.802576, 4.987988, 18.327886
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.033066, 0.001736, 0.052470
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_17]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0019
+        position                         = 85.552104, 6.716460, 2.383209
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.015424, 0.000473, 0.030659
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_18]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0020
+        position                         = 82.489632, 6.456090, 7.809238
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.053333, -0.000679, -0.012735
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_19]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0021
+        position                         = 87.136472, 5.674418, 16.731028
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.061511, 0.004275, 0.069435
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_2]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = jup_b201_ps_0010
+        position                         = 231.041488, 15.175406, -309.021088
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_20]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0022
+        position                         = 70.341016, 6.624936, 5.536184
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.043081, 0.005562, 0.128435
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_21]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0023
+        position                         = 59.521968, 7.368808, 9.519790
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.071305, 0.006867, 0.096086
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_22]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0024
+        position                         = 74.746544, 4.898230, 34.256924
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.065527, 0.002585, 0.039455
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_23]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0025
+        position                         = 81.434208, 3.937227, 45.301340
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.084704, -0.001524, -0.018015
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_24]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0026
+        position                         = 95.915008, 3.861780, 41.527052
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.042101, 0.002238, 0.053118
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_25]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0027
+        position                         = 100.255272, 4.049912, 33.480942
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.051141, 0.003799, 0.074178
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_26]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0028
+        position                         = 105.642752, 4.193536, 12.208706
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.056778, -0.003285, 0.057832
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_27]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0029
+        position                         = 89.837104, 6.017642, 7.131732
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.035674, 0.005443, 0.151451
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_28]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0000
+        position                         = 69.702320, 4.469006, 41.796272
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.074262, -0.758376, -0.031961
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_29]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0001
+        position                         = 98.207624, 4.750908, 9.775984
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.004331, -0.002277, 0.120116
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_3]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = jup_b201_ps_0011
+        position                         = 241.665616, 15.175406, -316.979744
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_30]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps
+        position                         = 208.253584, -28.460518, 86.094680
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.208410, -0.244459, 0.878353
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_31]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0002
+        position                         = 214.648768, -29.799996, 96.362064
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_32]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0003
+        position                         = 223.954432, -29.799996, 89.829088
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_33]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0004
+        position                         = 228.300848, -29.636482, 97.033312
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.048120, 0.003800, -0.078843
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_34]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0005
+        position                         = 252.906768, -29.768894, 160.037696
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.011401, -0.000093, 0.008159
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_35]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0006
+        position                         = 240.784528, -29.800000, 147.139584
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_36]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0007
+        position                         = 253.431376, -29.800004, 140.678304
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_37]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0008
+        position                         = 293.365824, -29.279212, 116.508736
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.015437, 0.001404, -0.090701
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_38]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0009
+        position                         = 303.004288, -28.927594, 116.670088
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.188497, 0.004832, -0.025782
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_39]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0030
+        position                         = 306.245952, -29.800004, 105.524800
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_4]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = jup_b201_ps_0012
+        position                         = 230.042608, 15.175407, -333.630528
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_40]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0031
+        position                         = 271.574912, -29.799996, 54.661444
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.000000, -0.000000, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_41]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0032
+        position                         = 266.503424, -29.517312, 68.196376
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.009150, 0.000558, 0.060903
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_42]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0033
+        position                         = 255.249440, -29.800000, 52.410332
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_43]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0034
+        position                         = 248.828064, -29.145896, 83.996240
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.015075, 0.001278, -0.084562
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_44]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0035
+        position                         = 254.972464, -28.561658, 91.883544
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.015590, 0.000732, 0.046952
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_45]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0036
+        position                         = 236.711168, -29.353990, 99.420424
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.044899, -0.003317, -0.073766
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_46]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0037
+        position                         = 244.622208, -28.983042, 105.596680
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.057988, -0.001931, -0.033307
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_47]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0038
+        position                         = 243.445664, -29.753626, 117.490856
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.060972, 0.000498, 0.008166
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_48]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0039
+        position                         = 249.897456, -29.693408, 113.772992
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.062165, 0.003155, 0.050749
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_49]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0040
+        position                         = 269.755904, -29.799994, 127.052816
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_5]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = jup_b201_ps_0013
+        position                         = 239.804208, 15.175407, -332.211104
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_50]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0041
+        position                         = 269.408480, -29.799990, 116.132736
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.000000, -0.000000, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_51]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0042
+        position                         = 283.179328, -29.800002, 118.881656
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_52]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0043
+        position                         = 280.625888, -29.800002, 91.946392
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_53]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0044
+        position                         = 269.815776, -29.634642, 94.986000
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.074419, 0.003715, 0.049919
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_54]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0045
+        position                         = 261.673584, -29.767500, 103.387936
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.094773, 0.007713, 0.081330
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_55]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0046
+        position                         = -363.208704, 10.589615, 33.432250
+        ref_name                         = vehiclefx\exhaust_1
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_56]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0047
+        position                         = -265.279056, -2.799978, -315.350368
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_57]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0048
+        position                         = -312.487456, -2.800854, -317.665664
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_58]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0049
+        position                         = -288.022400, -0.858395, -284.602368
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_59]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0050
+        position                         = -311.566880, -2.814678, -272.671936
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_6]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = jup_b201_ps_0014
+        position                         = 230.784896, 15.175407, -322.177952
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_60]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0051
+        position                         = -289.368128, -2.286095, -252.859216
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_61]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0052
+        position                         = -305.224000, -2.818146, -215.030144
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_62]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0053
+        position                         = -340.538944, -2.805592, -224.913200
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_63]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0054
+        position                         = -272.954400, -2.805900, -237.919120
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_64]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0055
+        position                         = -330.276320, -2.802376, -273.003616
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_65]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0056
+        position                         = -328.998080, -2.805328, -248.997504
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_7]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = jup_b201_ps_0015
+        position                         = 237.027088, 15.175407, -321.198336
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_8]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0010
+        position                         = 62.137476, 5.540859, 34.954464
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.078719, 0.005957, 0.094379
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_9]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0011
+        position                         = 72.724944, 5.544186, 25.640102
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = -0.065547, 0.002079, 0.039422
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 

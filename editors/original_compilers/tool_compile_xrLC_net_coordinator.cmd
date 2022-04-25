@@ -1,0 +1,1 @@
+@start bin\compilers_net\coordinator.exe

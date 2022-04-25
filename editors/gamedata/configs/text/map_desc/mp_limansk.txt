@@ -1,0 +1,6 @@
+[map_info]
+name = "Limansk"
+players = 6-32
+modes = "Deathmatch, TeamdDeathmatch, Artefacthunt, CaptureTheArtefact"
+short_desc = "ui_map_desc_mp_limansk_short"
+large_desc = "ui_map_desc_mp_limansk_large"

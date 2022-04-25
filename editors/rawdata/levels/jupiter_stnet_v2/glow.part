@@ -1,0 +1,351 @@
+[guid]
+        guid_g0                          = 4816257301467301627
+        guid_g1                          = 4960127225431719567
+ 
+[main]
+        flags                            = 0
+        glow_tool_version                = 0
+        objects_count                    = 26
+ 
+[modif]
+        name                             =
+        time                             = 0
+ 
+[object_0]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0000
+        position                         = 765.347776, -37.454948, -227.361968
+        radius                           = 1.000000
+        rotation                         = -0.000001, -23.421554, 3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_1]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0010
+        position                         = 775.156992, -36.716208, -234.022560
+        radius                           = 1.000000
+        rotation                         = -0.000055, -23.585354, 3.141510
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_10]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0011
+        position                         = 882.719104, -30.649086, -274.459200
+        radius                           = 1.000000
+        rotation                         = -0.000001, -27.637298, -3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_11]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0014
+        position                         = 603.279104, -33.894944, -231.413600
+        radius                           = 1.000000
+        rotation                         = -0.000001, -21.996714, 3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_12]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0015
+        position                         = 592.732352, -34.213692, -243.696112
+        radius                           = 1.000000
+        rotation                         = -0.000009, -25.132862, -3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_13]
+        clsid                            = 1
+        co_flags                         = 3
+        flags                            = 0
+        name                             = light_wire_12m_glow
+        position                         = -51.863952, 8.250952, 198.496992
+        radius                           = 0.700000
+        rotation                         = 0.000000, -1.570796, -3.141593
+        scale                            = 0.700000, 0.700000, 0.700000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_white
+        version                          = 18
+ 
+[object_14]
+        clsid                            = 1
+        co_flags                         = 3
+        flags                            = 0
+        name                             = light_white_8m_glow
+        position                         = -60.090344, 7.442110, 205.154544
+        radius                           = 0.700000
+        rotation                         = 0.000000, -0.000000, 1.570796
+        scale                            = 0.700000, 0.700000, 0.700000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_white
+        version                          = 18
+ 
+[object_15]
+        clsid                            = 1
+        co_flags                         = 3
+        flags                            = 0
+        name                             = light_white_6m_glow
+        position                         = -44.815088, 6.809278, 180.872944
+        radius                           = 0.700000
+        rotation                         = 0.000000, -1.570796, 1.570796
+        scale                            = 0.700000, 0.700000, 0.700000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_white
+        version                          = 18
+ 
+[object_16]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_0000
+        position                         = -58.745508, 2.485601, 190.955152
+        radius                           = 0.500000
+        rotation                         = -0.000000, -1.570903, -1.570574
+        scale                            = 0.500000, 0.500000, 0.500000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_red2
+        version                          = 18
+ 
+[object_17]
+        clsid                            = 1
+        co_flags                         = 3
+        flags                            = 0
+        name                             = light_white_8m_glow_0000
+        position                         = -50.960752, 7.007992, 185.787168
+        radius                           = 0.700000
+        rotation                         = 0.000000, -1.570796, 1.570796
+        scale                            = 0.700000, 0.700000, 0.700000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_white
+        version                          = 18
+ 
+[object_18]
+        clsid                            = 1
+        co_flags                         = 3
+        flags                            = 0
+        name                             = light_white_8m_glow_0001
+        position                         = -49.430708, 7.150634, 211.202336
+        radius                           = 0.700000
+        rotation                         = 0.000000, -1.570812, -1.570796
+        scale                            = 0.700000, 0.700000, 0.700000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_white
+        version                          = 18
+ 
+[object_19]
+        clsid                            = 1
+        co_flags                         = 3
+        flags                            = 0
+        name                             = light_white_8m_glow_0002
+        position                         = -58.716236, 6.816322, 221.202640
+        radius                           = 0.700000
+        rotation                         = 0.000000, -1.570796, 1.570796
+        scale                            = 0.700000, 0.700000, 0.700000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_white
+        version                          = 18
+ 
+[object_2]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0002
+        position                         = 774.259520, -30.297696, -218.441616
+        radius                           = 1.000000
+        rotation                         = -0.000001, -23.561954, 3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_20]
+        clsid                            = 1
+        co_flags                         = 3
+        flags                            = 0
+        name                             = light_white_8m_glow_0007
+        position                         = -58.752348, 2.474459, 195.498992
+        radius                           = 0.700000
+        rotation                         = -0.000000, -1.570794, -1.571000
+        scale                            = 0.700000, 0.700000, 0.700000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_white
+        version                          = 18
+ 
+[object_21]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0008
+        position                         = -44.346748, 7.559244, 218.556240
+        radius                           = 1.000000
+        rotation                         = 0.000000, -1.570796, -3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_22]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0001
+        position                         = -57.419092, 7.559166, 178.634832
+        radius                           = 1.000000
+        rotation                         = -0.000000, -1.570796, -3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_23]
+        clsid                            = 1
+        co_flags                         = 3
+        flags                            = 0
+        name                             = light_white_6m_glow_0000
+        position                         = -57.187140, 6.893492, 185.787152
+        radius                           = 0.700000
+        rotation                         = 0.000000, -1.570796, 1.570805
+        scale                            = 0.700000, 0.700000, 0.700000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_white
+        version                          = 18
+ 
+[object_24]
+        clsid                            = 1
+        co_flags                         = 3
+        flags                            = 0
+        name                             = light_white_8m_glow_0008
+        position                         = -46.014068, 7.829903, 192.454976
+        radius                           = 0.700000
+        rotation                         = 0.000000, -1.570796, 1.570796
+        scale                            = 0.700000, 0.700000, 0.700000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_white
+        version                          = 18
+ 
+[object_25]
+        clsid                            = 1
+        co_flags                         = 3
+        flags                            = 0
+        name                             = light_white_8m_glow_0009
+        position                         = -47.292604, 7.131736, 204.534496
+        radius                           = 0.700000
+        rotation                         = -0.054593, 1.570796, 1.570796
+        scale                            = 0.700000, 0.700000, 0.700000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_white
+        version                          = 18
+ 
+[object_3]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0003
+        position                         = 775.233920, -27.267296, -238.312416
+        radius                           = 1.000000
+        rotation                         = 0.000019, -23.585354, -3.141401
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_4]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0004
+        position                         = 911.001856, -28.014660, -279.000192
+        radius                           = 1.000000
+        rotation                         = -0.000001, -21.991160, -3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_5]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0005
+        position                         = 914.497792, -32.804196, -251.096128
+        radius                           = 1.000000
+        rotation                         = -0.000001, -22.667958, -3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_6]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0006
+        position                         = 932.630400, -33.594656, -245.748480
+        radius                           = 1.000000
+        rotation                         = -0.000001, -23.561954, -3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_7]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0007
+        position                         = 957.689600, -32.646976, -229.140096
+        radius                           = 1.000000
+        rotation                         = -0.000001, -23.561954, -3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_8]
+        clsid                            = 1
+        co_flags                         = 2
+        flags                            = 0
+        name                             = glow_galogen_0009
+        position                         = 902.333376, -30.649028, -265.375952
+        radius                           = 1.000000
+        rotation                         = -0.000001, -21.991160, -3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_04
+        version                          = 18
+ 
+[object_9]
+        clsid                            = 1
+        co_flags                         = 0
+        flags                            = 0
+        name                             = glow_0006
+        position                         = 363.428672, -24.138276, -324.270880
+        radius                           = 1.000000
+        rotation                         = -0.000001, -23.561954, 3.141592
+        scale                            = 1.000000, 1.000000, 1.000000
+        shader_name                      = effects\glow
+        texture_name                     = glow\glow_white
+        version                          = 18
+ 

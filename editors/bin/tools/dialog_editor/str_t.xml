@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<string_table>
+    <string id="super_0">
+        <text>default text</text>
+    </string>
+    <string id="super_13">
+        <text>text in default " '</text>
+    </string>
+</string_table>
