@@ -4,7 +4,7 @@
  
 [main]
         flags                            = 0
-        objects_count                    = 1331
+        objects_count                    = 1332
         version                          = 0
  
 [modif]
@@ -16198,6 +16198,65 @@ ammo_9x39_pab9 = 20"
         000031                           = "inventory_box_use"
         fl                               = 0
         name                             = inventory_box
+ 
+[object_1331]
+        attached_count                   = 1
+        clsid                            = 6
+        co_flags                         = 0
+        name                             = sr_safe_zone
+        position                         = -50.024816, 3.488477, 198.389712
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 24.631402, 22.268002, 51.103400
+        type                             = 2
+        version                          = 23
+ 
+[object_1331_attached_0]
+        clsid                            = 4
+        co_flags                         = 0
+        name                             = shape
+        position                         = -50.024816, 3.488477, 198.389712
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 24.631402, 22.268002, 51.103400
+        shape_matrix_c_0                 = 0.000000, 0.000000, 0.000000
+        shape_matrix_i_0                 = 1.000000, 0.000000, 0.000000
+        shape_matrix_j_0                 = 0.000000, 1.000000, 0.000000
+        shape_matrix_k_0                 = 0.000000, 0.000000, 1.000000
+        shape_type                       = 0
+        shape_type_0                     = 1
+        shapes_count                     = 1
+        version                          = 2
+ 
+[object_1331_spawndata]
+        000001                           = 1
+        000002                           = "space_restrictor"
+        000003                           = ""
+        000004                           = 0
+        000005                           = 254
+        000006                           = 0.000000, 0.000000, 0.000000
+        000007                           = 0.000000, 0.000000, 0.000000
+        000008                           = 0
+        000009                           = 65535
+        000010                           = 65535
+        000011                           = 65535
+        000012                           = 33
+        000013                           = 128
+        000014                           = 65535
+        000015                           = 12
+        000016                           = 0
+        000017                           = 65535
+        000018                           = 0
+        000019                           = 65535
+        000020                           = 0.000000
+        000021                           = 1
+        000022                           = -1
+        000023                           = -194
+        000024                           = ""
+        000025                           = -1
+        000026                           = -1
+        000027                           = 0
+        000028                           = 3
+        fl                               = 0
+        name                             = space_restrictor
  
 [object_133_attached_0]
         clsid                            = 4
