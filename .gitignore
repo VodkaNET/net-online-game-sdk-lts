@@ -1,2 +1,7 @@
 
 *.tmp
+editors/_appdata_/temp/game_graph
+editors/_appdata_/temp/local_graph_jupiter_stnet_v2
+editors/_appdata_/temp/raw_cross_table_jupiter_stnet_v2
+*.log
+*.mdmp
