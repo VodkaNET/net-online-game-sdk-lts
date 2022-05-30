@@ -1,1 +1,1 @@
-@start bin\compilers_x64\xrAI.exe -no_separator_check -s zaton
+@start bin\compilers_x64\xrAI.exe -no_separator_check -s jupiter_stnet_v2
