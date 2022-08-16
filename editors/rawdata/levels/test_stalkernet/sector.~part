@@ -4,10 +4,31 @@
  
 [main]
         flags                            = 0
-        objects_count                    = 0
+        objects_count                    = 1
         version                          = 0
  
 [modif]
         name                             =
         time                             = 0
+ 
+[object_0]
+        change_map_to_idx                = 255
+        clsid                            = 8
+        co_flags                         = 0
+        default                          = on
+        item_mesh_name_0000              = Plane001
+        item_mesh_name_0001              = veh_niva_u_01
+        item_mesh_name_0002              = stol_village_a
+        item_mesh_name_0003              = tomb_2
+        item_object_name_0000            = vodka\scenes\test_stalkernet\test_plane
+        item_object_name_0001            = custom_models\niva_item
+        item_object_name_0002            = statics\stol\stol_village_a
+        item_object_name_0003            = statics\tomb\tomb_2
+        items_count                      = 4
+        name                             = Sector_DEFAULT
+        position                         = 0.000000, 0.000000, 0.000000
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        sector_color                     = 255, 0, 0, 0
+        version                          = 18
  
