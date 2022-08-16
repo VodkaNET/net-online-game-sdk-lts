@@ -11,7 +11,7 @@
  
 [main]
         flags                            = 0
-        objects_count                    = 5
+        objects_count                    = 4
         version                          = 0
  
 [modif]
@@ -52,17 +52,6 @@
         version                          = 18
  
 [object_3]
-        clsid                            = 2
-        co_flags                         = 0
-        flags                            = 0
-        name                             = vodka\scenes\test_stalkernet\pbr_test
-        position                         = -65.227340, 0.180000, 75.341648
-        reference_name                   = vodka\scenes\test_stalkernet\pbr_test
-        rotation                         = 0.000000, 0.000000, 0.000000
-        scale                            = 1.000000, 1.000000, 1.000000
-        version                          = 18
- 
-[object_4]
         clsid                            = 2
         co_flags                         = 0
         flags                            = 0
