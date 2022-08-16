@@ -1,1 +1,1 @@
-@start bin\compilers_x64\xrAI.exe -verify zaton
+@start bin\compilers_x64\xrAI.exe -verify test_stalkernet

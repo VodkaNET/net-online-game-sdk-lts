@@ -1,1 +1,1 @@
-@start bin\compilers_x64\xrAI.exe -f zaton -keep_temp_files
+@start bin\compilers_x64\xrAI.exe -f test_stalkernet -keep_temp_files
