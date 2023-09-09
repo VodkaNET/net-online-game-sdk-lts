@@ -1,0 +1,1618 @@
+[guid]
+        guid_g0                          = 5332872356847091986
+        guid_g1                          = 16092526577655420818
+ 
+[main]
+        objects_count                    = 146
+        version                          = 0
+ 
+[modif]
+        name                             =
+        time                             = 0
+ 
+[object_0]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0015
+        position                         = 293.699066, 0.453829, -234.763580
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_1]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0016
+        position                         = 291.714294, 0.991388, -240.160019
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_10]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0008
+        position                         = 271.975891, 12.382911, -290.370270
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_100]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0077
+        position                         = -429.259247, -7.199508, 220.461014
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_101]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0078
+        position                         = -397.219421, -7.217251, 176.515137
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_102]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0079
+        position                         = -395.152954, -7.438996, 221.037537
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_103]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0080
+        position                         = -384.197327, -8.708504, 190.436340
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_104]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0081
+        position                         = -372.374023, -7.205490, 172.632019
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_105]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0082
+        position                         = -378.225403, -5.501022, 144.723953
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_106]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0083
+        position                         = -400.870728, -7.278236, 137.612640
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_107]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0084
+        position                         = -438.299438, -7.208878, 119.548782
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_108]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0085
+        position                         = -402.017578, -6.651062, 157.713898
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_109]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0086
+        position                         = -429.800568, -6.519989, 167.861084
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_11]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0009
+        position                         = 269.789581, 14.852937, -295.162415
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_110]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0087
+        position                         = -441.859039, -7.186958, 153.732239
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_111]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0088
+        position                         = -423.533112, -7.199497, 143.824249
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_112]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0089
+        position                         = -451.671967, -7.192833, 138.217392
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_113]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0090
+        position                         = -445.673462, -7.706948, 212.402176
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_114]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0091
+        position                         = -472.551086, -7.194118, 145.073730
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_115]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0040
+        position                         = -34.505062, 24.281136, 298.471893
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.023325, -0.014074, -0.018878
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_116]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0036
+        position                         = 393.685089, -4.665150, 443.010681
+        ref_name                         = zones\zone_steam_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_117]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0092
+        position                         = 398.613068, -4.665152, 427.753021
+        ref_name                         = zones\zone_steam_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_118]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0093
+        position                         = 404.558167, -4.665148, 437.372192
+        ref_name                         = zones\zone_steam_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_119]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0094
+        position                         = 387.784882, -4.665148, 431.979553
+        ref_name                         = zones\zone_steam_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_12]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0010
+        position                         = 267.047180, 20.870684, -302.016479
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_120]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0095
+        position                         = 381.150452, -4.665154, 444.673553
+        ref_name                         = zones\zone_steam_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_121]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0096
+        position                         = 376.684143, -4.665150, 432.640289
+        ref_name                         = zones\zone_steam_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_122]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_07_00
+        position                         = -319.451691, 10.849591, 423.270844
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, -2.967044, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_123]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_14_00
+        position                         = 417.409790, 37.000732, -52.659718
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_124]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 0
+        name                             = ps_0001_00
+        position                         = 117.982193, -2.877698, 189.170578
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, -0.000000, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_125]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_02
+        position                         = 401.527100, 34.318138, -444.997375
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, -2.181650, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_126]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_03
+        position                         = 5.251160, -4.168120, 42.406742
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 1.745320, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_127]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_04
+        position                         = -406.851898, 33.444717, -354.036041
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_128]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_06
+        position                         = -414.061249, 1.697296, 28.349955
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, -1.221724, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_129]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_08
+        position                         = 411.155212, 37.733723, 5.187624
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 1.047192, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_13]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0011
+        position                         = 296.364349, -0.054617, -227.643692
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_130]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_10
+        position                         = 378.859436, 35.391087, -8.577913
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, -0.959926, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_131]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_11
+        position                         = 117.968971, -2.877698, 189.114548
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, -0.698128, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_132]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_12
+        position                         = 116.970024, -2.287953, 175.556885
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, -1.308990, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_133]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_13
+        position                         = 106.245346, -0.464127, 187.677292
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_134]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_16
+        position                         = -5.163857, 3.215326, 33.252430
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, -2.181684, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_135]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_17
+        position                         = 420.548584, 37.660973, 2.020546
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 1.919886, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_136]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_18
+        position                         = 307.860687, 38.789013, -408.027466
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 0.892800, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_137]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_20
+        position                         = -144.420258, 24.643766, -427.585114
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_138]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_21
+        position                         = 414.874176, 37.363846, -39.699760
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, -2.792546, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_139]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_22
+        position                         = 2.234819, 0.970770, 40.543903
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_14]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0013
+        position                         = 265.500458, 25.828739, -306.203735
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_140]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_23
+        position                         = 318.058228, 34.448936, -411.350250
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_141]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_00
+        position                         = 113.393600, -2.577682, 181.567703
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, -0.087266, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_142]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_01
+        position                         = 110.453323, -2.567104, 189.053650
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 2.618014, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_143]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_24
+        position                         = 125.161606, -5.972319, 178.868896
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 2.530748, -0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_144]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_25
+        position                         = 7.059423, 0.255106, 36.556736
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_145]
+        clsid                            = 11
+        co_flags                         = 2
+        game_type                        = 65535
+        name                             = light_gas_4m_particles_05
+        position                         = -180.430801, 10.883368, 79.237396
+        ref_name                         = explosions\gas_light
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_15]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zaton_b56_ps_0000
+        position                         = 12.056303, 10.067235, -382.498383
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_16]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zaton_b56_ps_0001
+        position                         = 11.856300, 10.067235, -389.098785
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_17]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zaton_b56_ps_0002
+        position                         = 12.056303, 10.067235, -382.498383
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_18]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zaton_b56_ps_0003
+        position                         = 19.256317, 10.067235, -394.999146
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_19]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zaton_b56_ps_0004
+        position                         = 12.356316, 10.067235, -395.699188
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_2]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0000
+        position                         = 289.362549, 1.447798, -245.810593
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_20]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zaton_b56_ps_0005
+        position                         = 7.956310, 10.067235, -399.499420
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_21]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zaton_b56_ps_0006
+        position                         = 14.256313, 10.067235, -401.399567
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_22]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zaton_b56_ps_0007
+        position                         = 17.956322, 10.067235, -386.499603
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_23]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zaton_b56_ps_0008
+        position                         = 5.056316, 10.067235, -395.399902
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_24]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0009
+        position                         = -16.805689, 22.718466, 296.002869
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.093812, 0.001026, 0.118063
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_25]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0010
+        position                         = -16.171013, 24.976278, 324.981384
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.077610, 0.001267, -0.016342
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_26]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0011
+        position                         = -35.520386, 24.779781, 355.869202
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.009772, 0.000215, -0.022047
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_27]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0012
+        position                         = -47.610947, 25.311800, 331.766357
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.005355, 0.002333, -0.410869
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_28]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0000
+        position                         = -42.220886, 24.437609, 323.170044
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.015206, 0.001478, -0.041581
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_29]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0001
+        position                         = -52.449497, 24.127502, 315.722015
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.039459, 0.000838, -0.026365
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_3]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0001
+        position                         = 287.457428, 2.020285, -250.318359
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_30]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0002
+        position                         = -39.743477, 24.195478, 330.461212
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.008172, -0.002436, 0.104205
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_31]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0003
+        position                         = -52.106682, 25.699272, 325.269470
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.016919, -0.002990, 0.022088
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_32]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0004
+        position                         = -58.882584, 24.020411, 328.661774
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.039834, -0.002170, -0.035798
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_33]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0005
+        position                         = -57.492096, 24.768456, 334.783875
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.016822, -0.025006, -0.383060
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_34]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0006
+        position                         = -52.951324, 24.949114, 335.664307
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.282606, 0.045808, -0.235928
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_35]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0007
+        position                         = -44.128822, 24.692413, 339.403534
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.003908, -0.002909, 0.039132
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_36]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0008
+        position                         = -39.923218, 24.909933, 346.130707
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.013442, -0.003018, 0.011383
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_37]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0016
+        position                         = -43.800575, 26.420387, 349.515198
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.131737, -0.072047, -0.445705
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_38]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0020
+        position                         = -49.418758, 25.394302, 351.086548
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.101890, -0.040016, -0.136320
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_39]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0021
+        position                         = -39.478928, 25.158989, 353.294952
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.006326, -0.027589, 0.128836
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_4]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0002
+        position                         = 285.208160, 2.717892, -255.336105
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_40]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0022
+        position                         = -35.003231, 24.920473, 350.486237
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.220400, -0.051918, 0.114043
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_41]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0023
+        position                         = -35.480778, 25.137310, 355.205261
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.040939, -0.020936, 0.167732
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_42]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0024
+        position                         = -45.374222, 24.523705, 363.977814
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.085317, -0.022923, -0.015765
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_43]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0025
+        position                         = -39.004341, 24.779329, 365.715149
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.013084, -0.018683, -0.058472
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_44]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0026
+        position                         = -31.552456, 25.098013, 360.467133
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.013915, -0.018776, 0.003436
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_45]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0027
+        position                         = -28.421873, 24.802261, 348.436584
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.030799, -0.018881, 0.006216
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_46]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0028
+        position                         = -24.293831, 22.296179, 278.687500
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.180197, -0.018327, -0.020501
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_47]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0029
+        position                         = -27.572088, 23.116455, 287.710510
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.079890, -0.010116, 0.084349
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_48]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0030
+        position                         = -21.786379, 22.655388, 286.392365
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.023573, -0.006201, 0.117677
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_49]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0031
+        position                         = -27.873060, 24.598433, 293.590088
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.079653, -0.012932, 0.084573
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_5]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0003
+        position                         = 283.395386, 3.499361, -261.241547
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_50]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0032
+        position                         = -31.344521, 24.383579, 300.281036
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.023325, -0.014074, -0.018878
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_51]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0033
+        position                         = -28.483028, 24.458929, 304.083282
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.008657, -0.016079, -0.034165
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_52]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0034
+        position                         = -25.973652, 24.492144, 308.577179
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.026828, -0.016418, -0.018641
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_53]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0035
+        position                         = -12.841934, 22.568233, 298.437347
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.204032, -0.043654, 0.135984
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_54]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0037
+        position                         = -17.555370, 23.761814, 303.121124
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.076364, -0.022684, 0.100318
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_55]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0038
+        position                         = -8.802735, 22.371864, 303.754272
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.151134, -0.035256, 0.154202
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_56]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0039
+        position                         = -5.076843, 22.044664, 306.704865
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.116433, -0.031298, 0.263470
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_57]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0041
+        position                         = -13.137886, 24.138876, 315.221710
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.350305, -0.252427, 0.724753
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_58]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0042
+        position                         = -19.595852, 24.055679, 313.706726
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.046902, -0.225623, 0.064982
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_59]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0043
+        position                         = -24.292389, 24.422892, 312.257202
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.022386, -0.225039, -0.023793
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_6]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0004
+        position                         = 280.331757, 4.709064, -267.382599
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_60]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0044
+        position                         = -15.881302, 24.745178, 319.582184
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.023597, -0.226957, 0.041693
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_61]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0045
+        position                         = -27.039207, 24.368065, 317.395905
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.007827, -0.227403, 0.007950
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_62]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0046
+        position                         = -26.917702, 24.276762, 321.651581
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.045220, -0.225063, 0.044828
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_63]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0047
+        position                         = -27.140795, 24.010773, 327.886871
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.034410, -0.228552, 0.043783
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_64]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0048
+        position                         = -24.998058, 23.923988, 331.487732
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.061239, -0.245475, -0.175285
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_65]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0049
+        position                         = -18.146357, 24.659826, 334.845215
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.029535, -0.232446, -0.142481
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_66]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0050
+        position                         = -15.547329, 24.548153, 330.597778
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.105909, -0.230098, -0.030756
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_67]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0051
+        position                         = -9.496613, 24.620024, 331.257751
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.066223, -0.228645, 0.036392
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_68]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0052
+        position                         = -6.835766, 24.134207, 326.347595
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.012618, -0.213451, 0.190173
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_69]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0053
+        position                         = -9.695225, 24.289948, 322.748291
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.027223, -0.212837, -0.015410
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_7]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0005
+        position                         = 278.419495, 5.959234, -273.784851
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_70]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0054
+        position                         = -13.465172, 23.213657, 302.817169
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.090250, -0.025761, 0.219209
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_71]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0055
+        position                         = -30.403370, 23.578545, 290.921783
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.082738, -0.013088, 0.050456
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_72]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0056
+        position                         = -16.727558, 22.324192, 291.906067
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.091935, -0.014760, 0.119527
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_73]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0057
+        position                         = -20.563541, 23.356005, 297.794739
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.100896, -0.023563, 0.124280
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_74]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0058
+        position                         = -8.746105, 21.313166, 295.353516
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.209821, -0.044762, 0.185270
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_75]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0059
+        position                         = -20.218300, 21.968077, 282.710449
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.309152, -0.122987, 0.462251
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_76]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0060
+        position                         = -24.585045, 23.088573, 290.467194
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.071961, -0.100423, 0.091204
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_77]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0061
+        position                         = -30.650482, 24.079367, 296.767059
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.082745, -0.012949, 0.050445
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_78]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0062
+        position                         = -4.413931, 20.371840, 295.199799
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.524944, -0.124277, 0.273461
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_79]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0063
+        position                         = -34.267586, 21.052174, 295.445587
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.284767, -0.027658, 0.087739
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_8]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0006
+        position                         = 276.593597, 7.168536, -278.601501
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_80]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0013
+        position                         = -10.447845, 23.432417, 310.741058
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.066159, -0.021688, 0.158937
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_81]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0014
+        position                         = -5.550270, 21.505051, 301.037750
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.138655, -0.031311, 0.119681
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_82]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0015
+        position                         = -4.981294, 22.561523, 311.059052
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.085023, -0.022650, 0.223445
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_83]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0017
+        position                         = -15.063303, 23.799423, 310.891296
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.008960, -0.023227, 0.019062
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_84]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0018
+        position                         = -30.530396, 24.355949, 308.732147
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.008951, -0.022329, -0.009102
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_85]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0019
+        position                         = -28.374207, 24.344574, 314.053711
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.009278, -0.022886, 0.006195
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_86]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0064
+        position                         = -8.323002, 23.734177, 318.232391
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.109881, -0.043544, 0.152128
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_87]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0065
+        position                         = -13.519701, 21.982204, 294.083069
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.101388, -0.023943, 0.162763
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_88]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0066
+        position                         = -22.691320, 23.964472, 301.408508
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.121664, -0.025760, 0.067623
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_89]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0067
+        position                         = -20.665632, 23.375626, 297.862305
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = 0.100051, -0.030338, 0.124960
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_9]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = zat_b54_ps_0007
+        position                         = 273.422516, 9.973742, -284.931030
+        ref_name                         = zones\zone_psychic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_90]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0068
+        position                         = -34.079494, 24.372469, 303.288940
+        ref_name                         = zones\zone_thermal_idle
+        rotation                         = -0.008366, -0.031411, -0.009860
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_91]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps
+        position                         = -465.509613, -6.115978, 190.275436
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_92]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0069
+        position                         = -457.579895, -7.060410, 160.648727
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_93]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0070
+        position                         = -470.141785, -7.406986, 124.051041
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_94]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0071
+        position                         = -431.138397, -7.028282, 198.632858
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_95]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0072
+        position                         = -450.600067, -7.198056, 239.529648
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_96]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0073
+        position                         = -435.369537, -8.038883, 180.999664
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_97]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0074
+        position                         = -461.114410, -7.166172, 218.023560
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_98]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0075
+        position                         = -411.209717, -6.778984, 203.909775
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
+[object_99]
+        clsid                            = 11
+        co_flags                         = 0
+        game_type                        = 65535
+        name                             = ps_0076
+        position                         = -414.962799, -7.058178, 180.582626
+        ref_name                         = zones\zone_acidic_idle
+        rotation                         = 0.000000, 0.000000, 0.000000
+        scale                            = 1.000000, 1.000000, 1.000000
+        version                          = 19
+ 
